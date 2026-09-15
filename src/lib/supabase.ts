@@ -84,6 +84,7 @@ export type Database = {
           period_type: BudgetPeriodType;
           start_date: string;
           end_date: string | null;
+          month: string | null;
           created_at: string;
           updated_at: string;
         };
@@ -96,6 +97,7 @@ export type Database = {
           period_type: BudgetPeriodType;
           start_date: string;
           end_date?: string | null;
+          month?: string | null;
           created_at?: string;
           updated_at?: string;
         };
@@ -108,6 +110,7 @@ export type Database = {
           period_type?: BudgetPeriodType;
           start_date?: string;
           end_date?: string | null;
+          month?: string | null;
           created_at?: string;
           updated_at?: string;
         };
@@ -247,4 +250,10 @@ const normalizedSupabaseUrl = (() => {
   return url.toString().replace(/\/$/, '');
 })();
 
-export const supabase = createClient<Database>(normalizedSupabaseUrl, supabaseAnonKey);
+export const supabase = createClient<Database>(normalizedSupabaseUrl, supabaseAnonKey, {
+  auth: {
+    autoRefreshToken: true,
+    persistSession: true,
+    detectSessionInUrl: true,
+  },
+});

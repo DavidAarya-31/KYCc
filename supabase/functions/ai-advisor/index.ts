@@ -1,5 +1,6 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { GoogleGenerativeAI } from "npm:@google/generative-ai";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
@@ -12,6 +13,33 @@ serve(async (req) => {
   }
 
   try {
+    const supabase = createClient(
+      Deno.env.get('SUPABASE_URL') ?? '',
+      Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
+    );
+
+    // 1. Authenticate
+    const authHeader = req.headers.get('Authorization');
+    const { data: { user }, error: authError } = await supabase.auth.getUser(
+      authHeader?.replace('Bearer ', '') ?? ''
+    );
+    if (authError || !user) {
+      return new Response(JSON.stringify({ error: 'Unauthorized' }), { status: 401, headers: corsHeaders });
+    }
+
+    // 2. Rate limit check (10 calls/day)
+    const { data: allowed } = await supabase.rpc('check_ai_rate_limit', {
+      p_user_id: user.id,
+      p_function_name: 'ai-advisor',
+      p_daily_limit: 10,
+    });
+    if (!allowed) {
+      return new Response(
+        JSON.stringify({ error: 'Daily AI limit reached. Resets at midnight.' }),
+        { status: 429, headers: corsHeaders }
+      );
+    }
+
     const { action, prompt, context } = await req.json();
     
     const apiKey = Deno.env.get('GEMINI_API_KEY');
@@ -78,14 +106,22 @@ ${JSON.stringify(context)}`;
     const response = await result.response;
     const text = response.text();
 
+    // 4. Log usage AFTER successful call
+    await supabase.from('ai_usage').insert({
+      user_id: user.id,
+      function_name: 'ai-advisor',
+      tokens_used: 0, // Gemini Flash API usage object could be parsed if available, defaulting to 0
+      cost_usd: 0,
+    });
+
     return new Response(JSON.stringify({ text }), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
       status: 200,
     });
   } catch (error: any) {
-    return new Response(JSON.stringify({ error: error.message }), {
+    return new Response(JSON.stringify({ error: 'Internal error' }), {
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-      status: 400,
+      status: 500,
     });
   }
 });

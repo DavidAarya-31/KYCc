@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Plus, Loader, Sparkles, Send, Bot, RefreshCw } from 'lucide-react';
+import { Plus, Loader, Sparkles, RefreshCw } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 import { Database } from '../lib/supabase';
@@ -21,9 +21,6 @@ export function Cards() {
   const dateKey = useCurrentDateKey();
   const [cards, setCards] = useState<CardWithSpending[]>([]);
   const [loading, setLoading] = useState(true);
-  const [chatInput, setChatInput] = useState('');
-  const [chatResponse, setChatResponse] = useState('');
-  const [chatLoading, setChatLoading] = useState(false);
 
   useEffect(() => {
     if (user) {
@@ -44,64 +41,23 @@ export function Cards() {
 
       if (cardsError) throw cardsError;
 
-      // Calculate spending for each card
-      const cardsWithSpending: CardWithSpending[] = [];
-      
-      for (const card of cardsData || []) {
-        // Get anniversary cycle for this card
-        const cycle = getAnniversaryCycle(card.anniversary_month);
-        const totalSpent = await calculateTotalCardSpend(card.id, cycle);
-        
-        cardsWithSpending.push({
-          ...card,
-          totalSpent,
-        });
-      }
+      // Calculate spending for each card in parallel
+      const cardsWithSpending = await Promise.all(
+        (cardsData || []).map(async (card) => {
+          const cycle = getAnniversaryCycle(card.anniversary_month);
+          const totalSpent = await calculateTotalCardSpend(card.id, cycle);
+          return {
+            ...card,
+            totalSpent,
+          };
+        })
+      );
 
       setCards(cardsWithSpending);
     } catch (error) {
       console.error('Error fetching cards:', error);
     } finally {
       setLoading(false);
-    }
-  };
-
-  const handleCardChat = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!chatInput.trim() || cards.length === 0) return;
-    
-    setChatLoading(true);
-    setChatResponse('');
-    
-    try {
-      const { data, error } = await supabase.functions.invoke('ai-advisor', {
-        body: {
-          action: 'card-chat',
-          prompt: chatInput,
-          context: cards.map(c => ({
-            name: c.card_name,
-            company: c.card_company,
-            network: c.card_network,
-            milestone: c.milestone_amount != null ? c.milestone_amount / 100 : null,
-            spent: c.totalSpent / 100
-          }))
-        }
-      });
-      
-      if (error) {
-        if (error.context && typeof error.context.json === 'function') {
-          const errData = await error.context.json().catch(() => ({}));
-          throw new Error(errData.error || error.message);
-        } else {
-          throw error;
-        }
-      }
-      
-      setChatResponse(data.text);
-    } catch (err: any) {
-      setChatResponse('Sorry, failed to get a recommendation: ' + err.message);
-    } finally {
-      setChatLoading(false);
     }
   };
 
@@ -135,63 +91,14 @@ export function Cards() {
   return (
     <div>
       <PageHeader title="Your Cards">
-        <div className="flex items-center space-x-4">
-          <form onSubmit={handleCardChat} className="hidden md:flex space-x-2 w-80">
-            <input
-              type="text"
-              value={chatInput}
-              onChange={(e) => setChatInput(e.target.value)}
-              placeholder="Ask which card to use..."
-              className="flex-1 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 text-sm rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              disabled={chatLoading}
-            />
-            <button
-              type="submit"
-              disabled={!chatInput.trim() || chatLoading}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center justify-center transition-colors disabled:opacity-50"
-              title="Ask AI"
-            >
-              {chatLoading ? <Loader className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
-            </button>
-          </form>
-          <Link
-            to="/cards/new"
-            className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shrink-0"
-          >
-            <Plus className="w-4 h-4 mr-2" />
-            Add New Card
-          </Link>
-        </div>
+        <Link
+          to="/cards/new"
+          className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shrink-0"
+        >
+          <Plus className="w-4 h-4 mr-2" />
+          Add New Card
+        </Link>
       </PageHeader>
-
-      {/* Mobile chat form */}
-      <div className="md:hidden mb-6">
-        <form onSubmit={handleCardChat} className="flex space-x-2">
-          <input
-            type="text"
-            value={chatInput}
-            onChange={(e) => setChatInput(e.target.value)}
-            placeholder="Ask which card to use..."
-            className="flex-1 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 text-sm rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            disabled={chatLoading}
-          />
-          <button
-            type="submit"
-            disabled={!chatInput.trim() || chatLoading}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center justify-center transition-colors disabled:opacity-50"
-          >
-            {chatLoading ? <Loader className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
-          </button>
-        </form>
-      </div>
-
-      {chatResponse && (
-        <div className="mb-8 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 text-blue-800 dark:text-blue-200 rounded-xl text-sm flex items-start shadow-sm">
-          <Bot className="w-5 h-5 mt-0.5 mr-3 shrink-0 text-blue-600 dark:text-blue-400" />
-          <div className="whitespace-pre-wrap flex-1">{chatResponse}</div>
-          <button onClick={() => setChatResponse('')} className="ml-4 text-blue-400 hover:text-blue-600 dark:hover:text-blue-300">&times;</button>
-        </div>
-      )}
 
       {!loading && recommendedCard && (
         <div className="mb-8 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-6 text-white shadow-lg flex items-start space-x-4 relative">

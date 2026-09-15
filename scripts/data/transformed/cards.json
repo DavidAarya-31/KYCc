@@ -1,0 +1,5153 @@
+[
+  {
+    "slug": "equitas-selfe",
+    "name": "Equitas Selfe Credit Card",
+    "bank": "Equitas Bank",
+    "fee_type": "FYF",
+    "fee_label": "First Year Free",
+    "categories": [
+      "Apparel",
+      "Utility",
+      "Grocery"
+    ],
+    "key_perks": [
+      "1 complimentary domestic lounge visit/quarter · no spend threshold · available on both Visa and RuPay variants",
+      "Choose your 5X categories (Apparel / Utility / Grocery)",
+      "10% valueback on Gold jewellery via Apparel MCC (MCC 5691) at Diamond tier",
+      "Diamond tier benefit · unlock with ₹3L quarterly spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fselfe.jpg&w=3840&q=75",
+    "affiliate_url": "https://selfeloans-web.equitas.bank.in/cc?Tpp=EQINTMKTRKPL&Description=968657",
+    "full_review_slug": "equitas-selfe",
+    "_detail_url": "/cards/equitas-selfe",
+    "network": "RuPay / Visa",
+    "annual_fee": 1000,
+    "joining_fee": 0,
+    "fee_waiver_label": "₹2.4L annual spend",
+    "fee_waiver_spend": 240000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.35 (standard) · ₹1.00 (Diamond tier)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5x in selected categories (Apparel/Utility/Grocery), 2x base; Diamond tier = 10% valueback",
+    "joining_benefits": [
+      "First year annual fee waived (₹1,000)",
+      "1 complimentary domestic lounge visit/quarter from card activation · no spend threshold",
+      "Choose your welcome subscription: Amazon Prime, SonyLIV, or equivalent",
+      "Choose your card design: Standard, Eco Green, or Metal variant"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹2.4L spend in the membership year",
+      "Continued 5X category selection (can be updated annually)",
+      "Diamond tier perks maintained on ₹3L quarterly spend"
+    ],
+    "earns_on": [
+      "All eligible 5x categories and base rewards in other spends",
+      "Gold jewellery (codes as Apparel MCC 5691) · 10% valueback at Diamond tier",
+      "1 domestic lounge visit/quarter (no spend threshold)"
+    ],
+    "does_not_earn_on": [
+      "Grocery cap 2,000 points/month"
+    ],
+    "reward_categories": [
+      "Apparel",
+      "Utility",
+      "Grocery"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": [
+      {
+        "merchant_name": "Ajio",
+        "merchant_slug": "ajio",
+        "merchant_emoji": "🛍️",
+        "tip_text": "Fashion, apparel & gold coins · one of the best platforms to earn high valueback on every purchase."
+      },
+      {
+        "merchant_name": "Myntra",
+        "merchant_slug": "myntra",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest fashion marketplace · earn 5X on apparel via the PhonePe route or RuPay CC on UPI."
+      },
+      {
+        "merchant_name": "Amazon",
+        "merchant_slug": "amazon",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest e-commerce platform · electronics, groceries, books, and gift cards with strong bank offer stacking."
+      },
+      {
+        "merchant_name": "Flipkart",
+        "merchant_slug": "flipkart",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's home-grown e-commerce giant for mobiles, electronics, fashion & groceries · multiple reward opportunities depending on category."
+      },
+      {
+        "merchant_name": "Zepto / Blinkit",
+        "merchant_slug": "zepto-blinkit",
+        "merchant_emoji": "🛍️",
+        "tip_text": "10-minute grocery & daily essentials delivery · earn high rewards on every order with no monthly cap."
+      },
+      {
+        "merchant_name": "Paytm",
+        "merchant_slug": "paytm",
+        "merchant_emoji": "🛍️",
+        "tip_text": "Pay electricity, prepaid, postpaid, gas & water bills · codes as MCC 4900."
+      },
+      {
+        "merchant_name": "Vi (Vodafone Idea)",
+        "merchant_slug": "vi",
+        "merchant_emoji": "🛍️",
+        "tip_text": "Utilities, Prepaid & postpaid mobile recharges · codes as MCC 4814"
+      }
+    ]
+  },
+  {
+    "slug": "bob-eterna",
+    "name": "BoB Eterna Credit Card",
+    "bank": "Bank of Baroda",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Online",
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic lounge access · requires ₹40,000 spend in preceding calendar quarter · new cards get automatic access in first quarter",
+      "3.75% statement credit on online, travel, dining & international spends",
+      "Net +1.39% profit on international spends after 2.36% forex markup",
+      "10% instant discounts on Amazon & Flipkart sale events",
+      "BOGO movie tickets via BookMyShow · 2 free tickets/month (pay for 1 get 1)",
+      "1% fuel surcharge waiver up to ₹250/month (min txn ₹400, max ₹5,000)",
+      "Air accident cover ₹50L · lost card liability cover · purchase protection"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Feterna.png&w=3840&q=75",
+    "affiliate_url": "https://track.techtrack.in/click?campaign_id=708&pub_id=1304",
+    "full_review_slug": "bob-eterna",
+    "_detail_url": "/cards/bob-eterna",
+    "network": "Visa / RuPay",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "2.36% (net profit on intl: +1.39%)",
+    "point_value": "Point Value1 RP = ₹0.25 (statement credit)",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "15 RP per ₹100 on online, travel, dining & international (3 base + 12 accel, accelerated portion capped at 5,000 pts/month); 3 RP per ₹100 base on all other spends",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee (till March 31, 2026)",
+      "2,500 bonus RP on first transaction within 30 days of card issuance",
+      "10,000 bonus RP on spending ₹50,000 within the first 60 days",
+      "Unlimited domestic lounge access from day one · first quarter access automatic (no spend threshold for new cards)",
+      "Add-on card free · lounge access extended to add-on cardholder too"
+    ],
+    "renewal_benefits": [
+      "No renewal fee ever (Lifetime Free)",
+      "All rewards, lounge access, and insurance benefits continue automatically"
+    ],
+    "earns_on": [
+      "Online shopping",
+      "Travel bookings",
+      "Dining & restaurants",
+      "International transactions",
+      "Fuel (surcharge waiver on txn ₹400–₹5,000)"
+    ],
+    "does_not_earn_on": [
+      "Fuel spends >₹5,000/txn (surcharge waived up to ₹250/month below that)",
+      "Rent",
+      "Wallet loads",
+      "Utilities >₹50k/txn",
+      "Insurance premiums",
+      "EMI conversions",
+      "CC bill via UPI (0.75% base only)"
+    ],
+    "reward_categories": [
+      "Online",
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": [
+      {
+        "merchant_name": "Ajio",
+        "merchant_slug": "ajio",
+        "merchant_emoji": "🛍️",
+        "tip_text": "Fashion, apparel & gold coins · one of the best platforms to earn high valueback on every purchase."
+      },
+      {
+        "merchant_name": "Myntra",
+        "merchant_slug": "myntra",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest fashion marketplace · earn 5X on apparel via the PhonePe route or RuPay CC on UPI."
+      },
+      {
+        "merchant_name": "Amazon",
+        "merchant_slug": "amazon",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest e-commerce platform · electronics, groceries, books, and gift cards with strong bank offer stacking."
+      },
+      {
+        "merchant_name": "Flipkart",
+        "merchant_slug": "flipkart",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's home-grown e-commerce giant for mobiles, electronics, fashion & groceries · multiple reward opportunities depending on category."
+      }
+    ]
+  },
+  {
+    "slug": "hdfc-marriott-bonvoy",
+    "name": "HDFC Bank Marriott Bonvoy Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,000 + Applicable Taxes",
+    "categories": [
+      "Hotels",
+      "Travel",
+      "Dining"
+    ],
+    "key_perks": [
+      "12 complimentary domestic lounge visits per year",
+      "12 complimentary international lounge visits per year (via Diners Club)",
+      "Marriott Bonvoy Silver Elite Status · 10 Elite Night Credits (ENCs) annually",
+      "Milestone: 1 Free Night Award (up to 15,000 MB Points) on ₹6L, ₹9L, and ₹15L anniversary-year spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fhdfc-marriot.png&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/swErV9",
+    "full_review_slug": "hdfc-marriott-bonvoy",
+    "_detail_url": "/cards/hdfc-marriott-bonvoy",
+    "network": "Diners Club International",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": "No annual fee waiver available",
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 MB Point ≈ ₹0.50–₹1.00 (varies by Marriott property redemption)",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "2 to 8 MB Points per ₹200 (revised from ₹150 effective 15 May 2026)",
+    "joining_benefits": [
+      "1 Free Night Award (valued up to 15,000 MB Points) on joining fee payment"
+    ],
+    "renewal_benefits": [
+      "1 Free Night Award (valued up to 15,000 MB Points) on renewal fee payment"
+    ],
+    "earns_on": [
+      "8 MB Points per ₹200 at participating Marriott Bonvoy hotels (MCC 7011)",
+      "4 MB Points per ₹200 on travel, dining, and entertainment",
+      "2 MB Points per ₹200 on all other eligible purchases"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Wallet loads",
+      "Smart EMI",
+      "Rental transactions",
+      "Government transactions",
+      "Cash Advances"
+    ],
+    "reward_categories": [
+      "Hotels",
+      "Travel",
+      "Dining"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-regalia-gold",
+    "name": "HDFC Regalia Gold Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹4L Spend",
+    "categories": [
+      "Travel",
+      "Hotels",
+      "Lifestyle",
+      "Shopping"
+    ],
+    "key_perks": [
+      "Boarding Edge: 2 complimentary benefits/quarter on boarding pass upload (Spa · Uber ₹750 airport transfer · Hotel buffet · Room upgrade) via SmartBuy",
+      "Domestic lounge: 3 visits/quarter on ₹60K+ spend in preceding quarter (from July 2026) · 6 international via Priority Pass/year",
+      "₹1,500 quarterly voucher on ₹1.5L spend (Marriott / Myntra / M&S / Reliance Digital)",
+      "₹5,000 + ₹5,000 SmartBuy flight vouchers at ₹5L & ₹7.5L annual spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Frg.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitli.in/g8UF4H0",
+    "full_review_slug": "regalia-gold",
+    "_detail_url": "/cards/hdfc-regalia-gold",
+    "network": "Visa",
+    "annual_fee": 2500,
+    "joining_fee": 2500,
+    "fee_waiver_label": "₹4L annual spend",
+    "fee_waiver_spend": 400000,
+    "forex_markup": "2% + GST",
+    "point_value": "Point Value1 RP = ₹0.50 (SmartBuy) · ₹1.00 (Accor transfer)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5 Reward Points per ₹200 base (~1.25%); 10X on SmartBuy Hotels (12.5%); 5X on Flights & Lifestyle Brands (6.25%)",
+    "joining_benefits": [
+      "2,500 bonus RP on paying the joining fee (worth ₹1,250 at SmartBuy)",
+      "Immediate access to SmartBuy 10X hotel and 5X flight booking rates",
+      "Boarding Edge benefit active from card activation · 6 Priority Pass international lounge visits/year"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹4L spend in the membership year",
+      "2,500 renewal bonus RP on paying renewal fee",
+      "₹1,500 quarterly milestone voucher on ₹1.5L/quarter spend",
+      "₹5,000 SmartBuy voucher at ₹5L annual spend · ₹10,000 at ₹7.5L"
+    ],
+    "earns_on": [
+      "SmartBuy hotel & flight bookings",
+      "Myntra, M&S, Nykaa, Reliance Digital",
+      "Retail spends",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "EMI conversions"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Hotels",
+      "Lifestyle",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": [
+      {
+        "merchant_name": "Ajio",
+        "merchant_slug": "ajio",
+        "merchant_emoji": "🛍️",
+        "tip_text": "Fashion, apparel & gold coins · one of the best platforms to earn high valueback on every purchase."
+      },
+      {
+        "merchant_name": "Myntra",
+        "merchant_slug": "myntra",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest fashion marketplace · earn 5X on apparel via the PhonePe route or RuPay CC on UPI."
+      },
+      {
+        "merchant_name": "Amazon",
+        "merchant_slug": "amazon",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest e-commerce platform · electronics, groceries, books, and gift cards with strong bank offer stacking."
+      },
+      {
+        "merchant_name": "Flipkart",
+        "merchant_slug": "flipkart",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's home-grown e-commerce giant for mobiles, electronics, fashion & groceries · multiple reward opportunities depending on category."
+      }
+    ]
+  },
+  {
+    "slug": "yes-reserv",
+    "name": "YES RESERV Credit Card",
+    "bank": "YES Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹3L Spend",
+    "categories": [
+      "Online",
+      "Travel",
+      "Apparel",
+      "Dining",
+      "International"
+    ],
+    "key_perks": [
+      "6 domestic lounge visits/year + 3 international visits/year · requires ₹1,00,000 spend in preceding quarter (YES Bank 21st–20th cycle) · threshold effective Apr 2025",
+      "4 green fee waivers/year + 1 golf lesson/year at select courses",
+      "Credit Shield cover ₹15L · Lost Card liability ₹15L–₹30L · Purchase Protection ₹50,000 (mobile & electronics, 6 months)",
+      "1% fuel surcharge waiver on txn ₹400–₹5,000 · total waiver capped at ₹500/statement cycle",
+      "1.75% forex markup · 2.99% revolving credit interest rate"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fyesreserve.jpg&w=3840&q=75",
+    "affiliate_url": "https://www.yesbank.in/personal-banking/yes-individual/credit-card/yes-reserv-credit-card",
+    "full_review_slug": "yes-reserv",
+    "_detail_url": "/cards/yes-reserv",
+    "network": "Visa / Mastercard / RuPay",
+    "annual_fee": 2499,
+    "joining_fee": 2499,
+    "fee_waiver_label": "Joining: ₹40,000 spend within 30 days · Renewal: ₹3L annual spend",
+    "fee_waiver_spend": 300000,
+    "forex_markup": "1.75% (confirmed) · one of the lowest in its segment",
+    "point_value": "Point Value1 RP = ₹0.25 · redeem via YES Rewards portal for travel, vouchers & more",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "24 RP per ₹200 online (3%); 12 RP per ₹200 offline (1.5%); 6 RP per ₹200 on select categories (0.75%) · cap 36,000 RP/statement cycle · utility (MCC 4900) sub-capped at 750 RP/cycle",
+    "joining_benefits": [
+      "Joining fee waived on ₹40,000 spend within 30 days of card setup",
+      "Immediate access to 24 RP/₹200 on online shopping and 12 RP/₹200 offline",
+      "6 domestic + 3 international lounge visits active from first billing cycle (no spend threshold in first quarter for new cards)",
+      "Golf programme active from card issuance · 4 green fees + 1 lesson/year"
+    ],
+    "renewal_benefits": [
+      "Renewal fee waived on ₹3L annual spend",
+      "8,000 bonus RP on renewal fee being charged (2nd year onwards, worth ₹2,000)",
+      "Purchase Protection insurance renewed · ₹50,000 cover for mobile & electronics"
+    ],
+    "earns_on": [
+      "Online shopping (24 RP/₹200)",
+      "Offline retail (12 RP/₹200)",
+      "Dining & restaurants",
+      "International transactions",
+      "Apparel & lifestyle"
+    ],
+    "does_not_earn_on": [
+      "No RP: Fuel, Rent, Wallet loads, UPI transactions, Cash withdrawals, EMI (all types)",
+      "Reduced rate (6 RP/₹200): Utilities (MCC 4900, sub-cap 750 RP/cycle), Grocery (5411), Insurance (5960/6300), Education (8211–8299), Govt (9311/9399/9211), Transport (4111/4121/4131), Tolls (4784), Misc food (5499)",
+      "Utility charge: 1% on utility spends >₹15,000/month (capped ₹3,000/month)",
+      "Fuel charge: 1% + GST on fuel txn >₹10,000 (from Oct 2024, capped ₹5,000/month)",
+      "Education charge: 1% + GST via CRED/PhonePe/Housing.com etc. (capped ₹5,000/month)"
+    ],
+    "reward_categories": [
+      "Online",
+      "Travel",
+      "Apparel",
+      "Dining",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": [
+      {
+        "merchant_name": "Ajio",
+        "merchant_slug": "ajio",
+        "merchant_emoji": "🛍️",
+        "tip_text": "Fashion, apparel & gold coins · one of the best platforms to earn high valueback on every purchase."
+      },
+      {
+        "merchant_name": "Myntra",
+        "merchant_slug": "myntra",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest fashion marketplace · earn 5X on apparel via the PhonePe route or RuPay CC on UPI."
+      },
+      {
+        "merchant_name": "Amazon",
+        "merchant_slug": "amazon",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest e-commerce platform · electronics, groceries, books, and gift cards with strong bank offer stacking."
+      }
+    ]
+  },
+  {
+    "slug": "scapia",
+    "name": "Scapia Credit Card",
+    "bank": "Federal Bank / BOBCARD",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Travel",
+      "Everyday Retail",
+      "Gold & Jewelry"
+    ],
+    "key_perks": [
+      "Zero forex markup on all international transactions",
+      "Unlimited domestic lounge access · requires ₹20,000 eligible spend in preceding statement cycle",
+      "\"Choose Your Perk\" before every domestic flight: lounge, dining, retail, or spa (unlock with ₹20K eligible monthly spend)",
+      "Dual-bank routing (Federal Bank + BOBCARD) for maximum approval chances"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://apply.scapia.cards/landing_page?referral_code=tzio8x",
+    "full_review_slug": "scapia",
+    "_detail_url": "/cards/scapia",
+    "network": "Visa / RuPay",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "Zero",
+    "point_value": "5 Coins = ₹1 (₹0.20 per Coin)",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "20 Coins per ₹100 on travel via app (4%); 10 Coins per ₹100 everyday Visa (2%); 5 Coins per ₹100 UPI/RuPay (1%); 5 Coins = ₹1",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "Zero forex markup active immediately on all international transactions",
+      "Unlimited domestic lounge access unlocks after first month with ₹10,000 eligible spend",
+      "Scapia Coins start accruing from the first transaction"
+    ],
+    "renewal_benefits": [
+      "No renewal fee ever (Lifetime Free)",
+      "Unlimited domestic lounge access maintained on ₹10,000 eligible spend/month",
+      "\"Choose Your Perk\" continues on ₹20K eligible monthly spend",
+      "All rewards and benefits continue without any renewal action"
+    ],
+    "earns_on": [
+      "Travel bookings via Scapia app",
+      "Retail purchases (Visa)",
+      "Gold & jewelry (Visa swipe)",
+      "Online shopping"
+    ],
+    "does_not_earn_on": [
+      "Utilities",
+      "Insurance",
+      "Rent",
+      "Wallet loads",
+      "Fuel",
+      "Government fees",
+      "International spends (no coins)"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Everyday Retail",
+      "Gold & Jewelry"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "amex-platinum-charge",
+    "name": "American Express® Platinum Charge Card",
+    "bank": "American Express",
+    "fee_type": "paid",
+    "fee_label": "₹66,000 + Applicable Taxes",
+    "categories": [
+      "Travel",
+      "International",
+      "Luxury"
+    ],
+    "key_perks": [
+      "No pre-set spending limit (Charge Card dynamic capacity)",
+      "Conditional Travel Offer: ₹15,000 travel e-gift voucher on booking flights/hotels worth ₹1,00,000+ via Amex Travel Online",
+      "Unlimited access to Amex Global Lounge Collection (Centurion, Priority Pass, etc.) for Primary + 1 Supplementary + 1 guest each",
+      "Complimentary Elite Tier status: Marriott Bonvoy Gold, Hilton Honors Gold, Radisson Rewards Premium, and Taj Epicure",
+      "Comprehensive Travel Insurance: Air accident cover up to ₹5 Crore",
+      "Overseas Medical Insurance: up to US $50,000",
+      "Complimentary golf: up to 4 games/month and 2 lessons/month at select courses in India",
+      "Dedicated 24/7 Platinum Concierge service",
+      "Metal Card"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Famex-pc.png&w=3840&q=75",
+    "affiliate_url": "https://x.com/SartanparaYash",
+    "full_review_slug": "amex-platinum-charge",
+    "_detail_url": "/cards/amex-platinum-charge",
+    "network": "American Express",
+    "annual_fee": 66000,
+    "joining_fee": 66000,
+    "fee_waiver_label": "No spend-based annual fee waiver available.",
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 MR Point ≈ ₹0.40–₹1.00 (high value on luxury hotel/airline transfers)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "1 Membership Reward Point per ₹40 spent · 3X on international spends · 5X via Reward Multiplier",
+    "joining_benefits": [
+      "1,00,000 MR Points OR vouchers worth up to ₹60,000 (choice of Taj, Reliance Luxe, or Postcard Hotels) on fee payment and ₹50,000 spend within first 2 months"
+    ],
+    "renewal_benefits": [
+      "Vouchers worth up to ₹35,000 on ₹20L+ spend in previous membership year and renewal fee payment",
+      "Continued Marriott Bonvoy Gold, Hilton Honors Gold, Radisson Premium, and Taj Epicure statuses",
+      "Unlimited lounge access and Platinum Concierge continue"
+    ],
+    "earns_on": [
+      "3X MR Points on all international spends",
+      "5X MR Points via Reward Multiplier on select luxury brands",
+      "1 MR Point per ₹40 on all other eligible spends"
+    ],
+    "does_not_earn_on": [
+      "Utility payments",
+      "Insurance premiums",
+      "Cash advances",
+      "Fuel (standard rate)"
+    ],
+    "reward_categories": [
+      "Travel",
+      "International",
+      "Luxury"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "times-black-icici",
+    "name": "Times Black ICICI Bank Credit Card",
+    "bank": "ICICI Bank",
+    "fee_type": "paid",
+    "fee_label": "₹20,000/year · Fee Waiver at ₹25L Spend",
+    "categories": [
+      "International",
+      "Travel",
+      "Lifestyle",
+      "All Retail"
+    ],
+    "key_perks": [
+      "Unlimited domestic lounge access by swiping the Times Black ICICI card for primary and add-on cardholders",
+      "Unlimited international lounge access for primary and add-on cardholders via Priority Pass",
+      "₹10,000 Times Black Visa Wallet for visa services via Atlys and OneVasco after joining-benefit activation",
+      "₹10,000 Times Black Mobility Wallet unlocked after ₹5L spend for BLADE, Avis and Indian Travel House transfers",
+      "1% fuel surcharge waiver on all fuel transactions · capped at ₹1,000 per statement cycle",
+      "Zero cancellation cover on eligible domestic flight, hotel and movie bookings · plus premium travel and accident insurance cover"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Ftimesblack.png&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": "times-black",
+    "_detail_url": "/cards/times-black-icici",
+    "network": "Visa Infinite",
+    "annual_fee": 20000,
+    "joining_fee": 20000,
+    "fee_waiver_label": "₹25L annual spend",
+    "fee_waiver_spend": 2500000,
+    "forex_markup": "3.5% + GST · 1.49% DCC fee",
+    "point_value": "1 ICICI Bank reward point = up to ₹1 on select catalog / travel redemptions · ₹0.40 as statement credit",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "2% on eligible domestic spends · 2.5% on eligible international spends · 5,000 reward points/statement cap on utility, insurance, education and government categories",
+    "joining_benefits": [
+      "Joining benefits activate on payment of the joining fee + GST within the first 2 statement cycles",
+      "Visa-services wallet worth ₹10,000 through Atlys and OneVasco",
+      "Luxury stay voucher worth ₹10,000 on EaseMyTrip",
+      "Zomato Gold annual membership voucher, Toni&Guy voucher worth ₹3,000, and Interflora voucher worth ₹1,000",
+      "The Quorum benefits including membership discount and 20% dining access at participating venues"
+    ],
+    "renewal_benefits": [
+      "Annual benefits mirror the joining package on payment of annual fee + GST for the membership year",
+      "Visa-services wallet, luxury stay voucher, Zomato Gold, Toni&Guy, Interflora, and The Quorum benefits renew with annual benefit fulfillment",
+      "Annual fee waived on ₹25L spend in the anniversary year",
+      "Milestone track continues separately: Klook ₹10,000 at ₹2L, mobility wallet unlock at ₹5L, Tata CLiQ Luxury ₹10,000 at ₹10L, Ayatana Resorts ₹20,000 at ₹20L"
+    ],
+    "earns_on": [
+      "Eligible domestic spends (2%)",
+      "Eligible international spends (2.5%)",
+      "Unlimited domestic and international lounge access",
+      "Times Black partner wallets and milestone privileges"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Cash advances",
+      "EMI conversions",
+      "Utility / insurance / education / government categories are capped, not excluded"
+    ],
+    "reward_categories": [
+      "International",
+      "Travel",
+      "Lifestyle",
+      "All Retail"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "au-lit",
+    "name": "AU Lit Credit Card",
+    "bank": "AU Small Finance Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Retail",
+      "Grocery",
+      "Apparel",
+      "Online"
+    ],
+    "key_perks": [
+      "Modular feature system · activate only the benefits you need via the AU app · features auto-renew every 90 days (disable after 7 days if not needed)",
+      "Milestone Cashback group · pick one: 5% on retail (min ₹10K/month · ₹500 cap) · 2% on retail (min ₹15K/month · ₹1,000 cap) · 1% on everything no exclusions (no min · ₹1,000/month cap · ₹199/90 days or ₹750/year) · ₹200 Amazon Pay GV on ₹10K/month · only one option active at a time",
+      "Category Cashback: 5% on Apparel (MCC 5611–5699 + 5941 + 7296 · broad definition includes Amazon, Ajio, Myntra, Flipkart general shopping) · up to ₹500/month",
+      "Accelerated Rewards: 5× or 10× RP on online and/or offline spends · base RP cap 10,000/statement cycle · utilities/telecom earn 1 RP max 100 RP/txn",
+      "Complimentary domestic lounge visit via ₹399 Lounge feature activation · international lounges chargeable at USD 35/visit",
+      "1% fuel surcharge waiver on txn ₹400–₹5,000 · up to ₹1,500 per 90-day feature period"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Flit.png&w=3840&q=75",
+    "affiliate_url": "https://bitli.in/mmyiBGx",
+    "full_review_slug": "au-lit",
+    "_detail_url": "/cards/au-lit",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "Standard markup (refer T&Cs)",
+    "point_value": "Point Value1 RP = ₹0.20–₹0.25 · features unlock 5% cashback or 10× RP (₹299/feature/90 days)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "1 RP per ₹100 base (0.2–0.25%); Milestone Cashback group (pick one): 5% on retail (min ₹10K, ₹500/month) · 2% (min ₹15K, ₹1K/month) · 1% everywhere no exclusions (₹1K/month) · ₹200 Amazon Pay GV on ₹10K · features from ₹199/90 days; Category Cashback: 5% on Grocery or Apparel (₹500/month); Accelerated Rewards: 10× RP on online spends",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "Activate any feature from day one via the AU app",
+      "Base 1 RP per ₹100 on all eligible spends from first transaction"
+    ],
+    "renewal_benefits": [
+      "No renewal fee ever (Lifetime Free)",
+      "Feature subscriptions renewable every 90 days · enable/disable anytime"
+    ],
+    "earns_on": [
+      "Online retail (5× or 10× with Accelerated Rewards feature)",
+      "Apparel · Ajio / Myntra / Amazon apparel MCC · 5% with Category Cashback feature",
+      "Grocery spends · 5% with Category Cashback feature",
+      "1% on all retail with no exclusions (new · no min spend · ₹1,000/month cap)"
+    ],
+    "does_not_earn_on": [
+      "Fuel (surcharge waiver via separate feature)",
+      "Rent",
+      "EMI",
+      "Wallet loads",
+      "Features require ₹199+/90-day subscription to unlock accelerated rates · only one Milestone Cashback option active at a time"
+    ],
+    "reward_categories": [
+      "Retail",
+      "Grocery",
+      "Apparel",
+      "Online"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": [
+      {
+        "merchant_name": "Ajio",
+        "merchant_slug": "ajio",
+        "merchant_emoji": "🛍️",
+        "tip_text": "Fashion, apparel & gold coins · one of the best platforms to earn high valueback on every purchase."
+      },
+      {
+        "merchant_name": "Myntra",
+        "merchant_slug": "myntra",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest fashion marketplace · earn 5X on apparel via the PhonePe route or RuPay CC on UPI."
+      },
+      {
+        "merchant_name": "Amazon",
+        "merchant_slug": "amazon",
+        "merchant_emoji": "🛍️",
+        "tip_text": "India's largest e-commerce platform · electronics, groceries, books, and gift cards with strong bank offer stacking."
+      }
+    ]
+  },
+  {
+    "slug": "sbi-cashback",
+    "name": "SBI Cashback Credit Card",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹2L Spend",
+    "categories": [
+      "Online",
+      "Shopping",
+      "Grocery",
+      "Dining",
+      "Travel"
+    ],
+    "key_perks": [
+      "5% cashback on all online purchases · no portal restrictions · Amazon, Flipkart, Myntra, Zomato, Swiggy and more · capped at ₹2,000/cycle (₹40K spend)",
+      "1% cashback on offline/in-store spends · capped at ₹2,000/cycle · combined max ₹4,000/cycle",
+      "Annual fee of ₹999 waived on ₹2L annual spend · net zero cost card for moderate online spenders"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fsbicb.png&w=3840&q=75",
+    "affiliate_url": "https://bitli.in/Td8PPCS",
+    "full_review_slug": "sbi-cashback",
+    "_detail_url": "/cards/sbi-cashback",
+    "network": "Visa",
+    "annual_fee": 999,
+    "joining_fee": 999,
+    "fee_waiver_label": "₹2L annual spend",
+    "fee_waiver_spend": 200000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Cashback is automatically credited to the SBI Card account and reflected in the monthly statement · cashback does not expire as per T&C",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5% cashback on online spends · capped ₹2,000/cycle · 1% on offline · capped ₹2,000/cycle · total cap ₹4,000/cycle",
+    "joining_benefits": [
+      "₹999 joining fee charged",
+      "5% cashback on all online spends active from first transaction"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹2L total spend in the membership year",
+      "5% online + 1% offline cashback continues without any reset"
+    ],
+    "earns_on": [
+      "All online shopping portals",
+      "Food delivery apps",
+      "OTT subscriptions",
+      "Online grocery",
+      "Online travel bookings"
+    ],
+    "does_not_earn_on": [
+      "Fuel (5172, 5541, 5542, 5983)",
+      "Wallet loads (6540, 6541)",
+      "Rental (6513, 7349)",
+      "Jewelry (5051, 5094, 5944, 7631)",
+      "Education (8211–8351)",
+      "Utility (4900, 4814, 4816, 4899, 9399)",
+      "Insurance (5960, 6300, 6381)",
+      "Gift/Novelty shops (5947)",
+      "Railways (4011, 4112)",
+      "Quasi cash (6011, 6012, 6051)",
+      "Digital gaming (5816, 7993, 7994)",
+      "Tolls (4784)",
+      "Government (9222, 9311, 9402)"
+    ],
+    "reward_categories": [
+      "Online",
+      "Shopping",
+      "Grocery",
+      "Dining",
+      "Travel"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sbi-phonepe-select-black",
+    "name": "PhonePe SBI Card SELECT BLACK",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹3L Spend",
+    "categories": [
+      "PhonePe",
+      "Online Shopping",
+      "UPI",
+      "Travel",
+      "Utilities"
+    ],
+    "key_perks": [
+      "10% Value Back (10 RP per ₹100) on PhonePe app: utility bills, recharges, travel bookings, Pincode app · cap 2,000 RP/month",
+      "5% Value Back (5 RP per ₹100) on all eligible online shopping · cap 2,000 RP/month",
+      "1% Value Back on all other spends including UPI Scan & Pay (RuPay) · cap 2,000 RP/month",
+      "4 complimentary domestic airport lounge visits/year (1 per quarter)",
+      "₹5,000 Yatra e-Voucher milestone on ₹5L annual spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fsbipp-black.png&w=3840&q=75",
+    "affiliate_url": "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-select-black.html",
+    "full_review_slug": "sbi-phonepe-select-black",
+    "_detail_url": "/cards/sbi-phonepe-select-black",
+    "network": "Visa / RuPay",
+    "annual_fee": 1499,
+    "joining_fee": 1499,
+    "fee_waiver_label": "₹3L annual spend",
+    "fee_waiver_spend": 300000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 Reward Point = ₹1 · redeemable as cashback against statement or vouchers",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "10% Value Back on PhonePe ecosystem (cap 2,000 RP/month) · 5% on online shopping (cap 2,000 RP/month) · 1% on all other spends and UPI Scan & Pay (cap 2,000 RP/month)",
+    "joining_benefits": [
+      "₹1,500 PhonePe e-Gift Card on payment of joining fee",
+      "10% rewards on PhonePe and 5% online cashback active from first transaction"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹3L spend in the membership year",
+      "All reward rates and caps continue"
+    ],
+    "earns_on": [
+      "PhonePe app spends: bills, recharges, travel, Pincode (10%)",
+      "Online shopping (5%)",
+      "All retail and UPI Scan & Pay (1%)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "Education",
+      "Insurance",
+      "Utilities (non-PhonePe)"
+    ],
+    "reward_categories": [
+      "PhonePe",
+      "Online Shopping",
+      "UPI",
+      "Travel",
+      "Utilities"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-swiggy",
+    "name": "Swiggy HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹2L Spend",
+    "categories": [
+      "Food Delivery",
+      "Grocery",
+      "Dining",
+      "Online Shopping",
+      "Travel",
+      "Transport"
+    ],
+    "key_perks": [
+      "10% cashback on all Swiggy services: Food delivery, Instamart, Dineout, Genie · capped at ₹1,500/month · best food delivery card in India",
+      "5% cashback on select online brands across 10 MCC categories including Amazon, Flipkart, Ajio, Meesho, Myntra, Ola, Uber, BookMyShow, PharmEasy · capped at ₹1,500/month",
+      "1% cashback on all other eligible spends · capped at ₹500/month",
+      "Total cashback potential: ₹3,500/month (₹42,000/year) · fee waived at ₹2L annual spend",
+      "Complimentary 3-month Swiggy One membership on card activation · free delivery, priority delivery, exclusive restaurant discounts"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fhdfc-swiggy.png&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/2aPvth",
+    "full_review_slug": "hdfc-swiggy",
+    "_detail_url": "/cards/hdfc-swiggy",
+    "network": "Mastercard",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": "₹2L annual spend",
+    "fee_waiver_spend": 200000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Cashback auto-credited as statement credit against next month outstanding · 1 cashback unit = ₹1 · minimum transaction ₹100 to earn",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "10% cashback on Swiggy ecosystem (cap ₹1,500/month) · 5% on select merchants across 10 online MCC categories (cap ₹1,500/month) · 1% on all other spends (cap ₹500/month)",
+    "joining_benefits": [
+      "3 months Swiggy One membership free on card activation",
+      "10% Swiggy cashback active from first order",
+      "5% online cashback on 100+ brands active immediately"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹2L annual spend · very easy to hit with Swiggy + online shopping alone",
+      "All cashback rates and caps continue"
+    ],
+    "earns_on": [
+      "Swiggy Food, Instamart, Dineout, Genie (10% · cap ₹1,500/month · MID/TID based)",
+      "Amazon, Flipkart, Ajio, Meesho, Myntra, Ola, Uber, BookMyShow, PharmEasy and select merchants across Apparel/Electronics/Entertainment MCCs (5% · cap ₹1,500/month)",
+      "All other retail online and offline (1% · cap ₹500/month)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Jewelry",
+      "Government transactions",
+      "EMI",
+      "Property management",
+      "School and educational fees"
+    ],
+    "reward_categories": [
+      "Food Delivery",
+      "Grocery",
+      "Dining",
+      "Online Shopping",
+      "Travel",
+      "Transport"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-cashback",
+    "name": "Axis Bank Cashback Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹4L Spend",
+    "categories": [
+      "Online",
+      "Shopping",
+      "Utilities"
+    ],
+    "key_perks": [
+      "Tiered online cashback: 2% (₹0–₹5K) → 5% (₹5K–₹40K) → 7% (₹40K+) · max ₹4,000 per statement month",
+      "0.75% unlimited cashback on offline (POS) and all travel spends (online + offline)",
+      "0.5% utility cashback (MCCs 4816, 4899, 4900) · capped at ₹100/month",
+      "5,000 EDGE Reward Points (₹1,000 value) on first spend within 30 days of issuance · only if joining fee paid",
+      "EazyDiner: 15% instant discount up to ₹500/month · min ₹2,500 transaction · once per calendar month"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Faxis-cashback.png&w=3840&q=75",
+    "affiliate_url": "http://bitlii.cc/en/lF1oEN",
+    "full_review_slug": "axis-cashback",
+    "_detail_url": "/cards/axis-cashback",
+    "network": "Visa",
+    "annual_fee": 1000,
+    "joining_fee": 1000,
+    "fee_waiver_label": "₹4L annual spend (rent and wallet MCCs excluded)",
+    "fee_waiver_spend": 400000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct statement credit · no redemption portal · credited before next statement date",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "Tiered online: 2% up to ₹5K · 5% up to ₹40K · 7% above ₹40K · cap ₹4,000/month · 0.75% offline & travel · 0.5% utilities (cap ₹100)",
+    "joining_benefits": [
+      "5,000 EDGE Reward Points (₹1,000) on first spend within 30 days · only if joining fee paid"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹4L annual spend (rent + wallet excluded)"
+    ],
+    "earns_on": [
+      "Online retail spends (tiered 2%–7%)",
+      "Offline POS (0.75%)",
+      "Travel (0.75%)",
+      "Utilities (0.5%)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Insurance",
+      "Education",
+      "Jewellery",
+      "Government",
+      "Tolls"
+    ],
+    "reward_categories": [
+      "Online",
+      "Shopping",
+      "Utilities"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-magnus",
+    "name": "Axis Bank Magnus Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹12,500 + Taxes",
+    "categories": [
+      "Travel",
+      "Miles Transfer",
+      "Lifestyle",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic lounge (primary + add-on) · unlimited international via Priority Pass (primary only) · 4 domestic + 4 international guest visits/year · primary must accompany · requires ₹50,000 spend in rolling 3 months",
+      "EazyDiner Prime membership · auto-activated during birthday week only (not at onboarding) · 40% off up to ₹1,000/month at EazyDiner restaurants",
+      "35 ER/₹200 on eligible spends above ₹1.5L/calendar month · 5X on Travel Edge portal (up to ₹2L/month) · 5:2 transfer to 20 partners"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://www.axisbank.com/retail/cards/credit-card/axis-bank-magnus-card",
+    "full_review_slug": "axis-magnus",
+    "_detail_url": "/cards/axis-magnus",
+    "network": "Visa Infinite",
+    "annual_fee": 12500,
+    "joining_fee": 12500,
+    "fee_waiver_label": "₹25L annual spend (excludes fuel, wallet, govt, insurance, utilities, gold/jewellery)",
+    "fee_waiver_spend": 2500000,
+    "forex_markup": "2% + GST",
+    "point_value": "1 ER point = ₹0.20 (vouchers) · Transfer at 5:2 ratio = ~2.4% base / ~7% accelerated via airmiles · Transfer cap: 5L pts/year (Group A: 1L, Group B: 4L)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "12 ER per ₹200 base · 35 ER per ₹200 above ₹1.5L/month · 60 ER (5X) on Travel Edge up to ₹2L/month",
+    "joining_benefits": [
+      "Gift voucher worth ₹12,500 (choice of Luxe, Yatra, or Postcard Hotels) · offsets first-year fee entirely"
+    ],
+    "renewal_benefits": [],
+    "earns_on": [
+      "12 ER/₹200 on eligible spends up to ₹1.5L/month",
+      "35 ER/₹200 on eligible spends above ₹1.5L/month (Gyftr, Travel Edge up to ₹2L, excluded cats not counted toward threshold)",
+      "60 ER/₹200 on Travel Edge portal up to ₹2L/month",
+      "Rent up to ₹50K/month earns 12 ER/₹200"
+    ],
+    "does_not_earn_on": [
+      "Fuel (5541, 5542, 5983)",
+      "Wallet loads (6540)",
+      "Government (9222, 9311, 9399, 9402)",
+      "Utilities/Telecom (4814, 4816, 4899, 4900)",
+      "Insurance (5960, 6051, 6300, 6381, 6012)",
+      "Gold & Jewellery (5094, 5944)",
+      "Rent above ₹50K/month (6513)",
+      "Gyftr/Grab Deals (excluded from AEP threshold)",
+      "EMI transactions",
+      "Cash advances"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Miles Transfer",
+      "Lifestyle",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-magnus-burgundy",
+    "name": "Axis Bank Magnus Credit Card for Burgundy",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹30,000/year · Waiver at ₹25L Spend",
+    "categories": [
+      "Travel",
+      "Miles Transfer",
+      "Dining",
+      "Lifestyle"
+    ],
+    "key_perks": [
+      "Unlimited domestic + international lounge for primary + add-on · 4 guest visits each (domestic + international) · primary must accompany · requires ₹50,000 spend in rolling 3 months",
+      "4 complimentary VIP Airport Meet & Greet services/year · EazyDiner Prime membership (birthday week activation) · 40% off up to ₹1,000/month at EazyDiner restaurants",
+      "5:4 miles transfer to 20 airline/hotel partners (the Burgundy Multiplier) · Transfer cap: 10L pts/year · welcome voucher ₹5,000 (Luxe/Yatra/Postcard Hotels)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://www.axisbank.com/burgundy/magnus-for-burgundy",
+    "full_review_slug": "axis-magnus-burgundy",
+    "_detail_url": "/cards/axis-magnus-burgundy",
+    "network": "Visa Infinite",
+    "annual_fee": 30000,
+    "joining_fee": 30000,
+    "fee_waiver_label": "₹25L annual spend (excludes fuel, wallet, govt, insurance, utilities, gold/jewellery)",
+    "fee_waiver_spend": 2500000,
+    "forex_markup": "2% + GST",
+    "point_value": "1 ER point = ₹0.20 (vouchers) · Transfer at 5:4 ratio · Transfer cap: 10L pts/year (Group A: 2L, Group B: 8L)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "12 ER/₹200 up to ₹1.5L · 35 ER/₹200 from ₹1.5L to (credit limit + ₹1.5L) · back to 12 ER above that · 5X on Travel Edge",
+    "joining_benefits": [
+      "Voucher worth ₹5,000 (Luxe, Yatra, or Postcard Hotels)"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹25L eligible spend in previous year",
+      "5:4 transfer ratio continues on renewal"
+    ],
+    "earns_on": [
+      "12 ER/₹200 on all eligible spends up to ₹1.5L/month",
+      "35 ER/₹200 from ₹1.5L to (credit limit + ₹1.5L)/month",
+      "12 ER/₹200 on eligible spends beyond upper band",
+      "5X ER on Travel Edge portal (up to ₹2L/month)",
+      "Rent up to ₹50K/month earns ER points"
+    ],
+    "does_not_earn_on": [
+      "Fuel (5541, 5542, 5983)",
+      "Wallet loads (6540)",
+      "Government (9222, 9311, 9399, 9402)",
+      "Utilities/Telecom (4814, 4816, 4899, 4900)",
+      "Insurance (5960, 6051, 6300, 6381, 6012)",
+      "Gold & Jewellery (5094, 5944)",
+      "Rent above ₹50K/month (6513)",
+      "EMI transactions",
+      "Cash advances"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Miles Transfer",
+      "Dining",
+      "Lifestyle"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hsbc-premier",
+    "name": "HSBC Premier Credit Card",
+    "bank": "HSBC Bank",
+    "fee_type": "paid",
+    "fee_label": "₹20,000",
+    "categories": [],
+    "key_perks": [
+      "Unlimited domestic and international lounge visits for primary and add-on cardholders",
+      "8 complimentary international guest lounge visits per year",
+      "0.99% ultra-low forex markup globally",
+      "Emergency international travel insurance (baggage loss, delays, medical)",
+      "Points never expire"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fpremier.png&w=3840&q=75",
+    "affiliate_url": "https://www.hsbc.co.in/credit-cards/products/premier/",
+    "full_review_slug": "hsbc-premier",
+    "_detail_url": "/cards/hsbc-premier",
+    "network": "Mastercard",
+    "annual_fee": 20000,
+    "joining_fee": 12000,
+    "fee_waiver_label": "Maintain TRB of ₹50 Lakhs, Salary of ₹3L/month, or Mortgage of ₹1.15 Cr (Effective Jan 2026)",
+    "fee_waiver_spend": 5000000,
+    "forex_markup": "0.99% + GST",
+    "point_value": "Point Value1 RP = 1 Air Mile / Hotel Point · 1:1 transfer to KrisFlyer, Marriott, Air India & 7 more",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "3 to 36 Reward Points per ₹100",
+    "joining_benefits": [
+      "20,000 bonus Reward Points on first transaction within 30 days"
+    ],
+    "renewal_benefits": [],
+    "earns_on": [
+      "3 RP per ₹100 on standard eligible retail spends",
+      "36 RP (12X) per ₹100 on hotels via HSBC Travel portal · only the 33 RP bonus above the 3 RP base rate counts toward the 18,000 bonus points/month cap",
+      "18 RP (6X) per ₹100 on flights via HSBC Travel portal · shares the same 18,000 bonus points/month cap as hotels",
+      "6 RP (2X) per ₹100 on car rentals via HSBC Travel portal",
+      "Utilities and Government spends earn RP (capped at ₹1 Lakh per month)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent / Property",
+      "E-Wallets",
+      "Jewelry (from April 2025)",
+      "Education (from April 2025)"
+    ],
+    "reward_categories": [],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hsbc-travelone",
+    "name": "HSBC TravelOne Credit Card",
+    "bank": "HSBC Bank",
+    "fee_type": "paid",
+    "fee_label": "₹4,999 + Applicable Taxes",
+    "categories": [],
+    "key_perks": [
+      "6 complimentary domestic airport lounge visits per year",
+      "4 complimentary international airport lounge visits per year",
+      "4 complimentary chauffeur-driven airport transfers per year (max 1 per quarter)",
+      "Milestone: 10,000 bonus points on spending ₹12 Lakhs annually"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Ft1.png&w=3840&q=75",
+    "affiliate_url": "https://bitli.in/3Lpmryx",
+    "full_review_slug": "hsbc-travelone",
+    "_detail_url": "/cards/hsbc-travelone",
+    "network": "Mastercard",
+    "annual_fee": 4999,
+    "joining_fee": 4999,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = 1 Air Mile or Hotel Point (1:1 conversion with top partners)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 to 24 Reward Points per ₹100",
+    "joining_benefits": [
+      "₹1,000 cashback and ₹3,000 Postcard Hotels voucher on spending ₹10,000 in 30 days",
+      "3,000 bonus RP on spending ₹1 Lakh within 90 days"
+    ],
+    "renewal_benefits": [],
+    "earns_on": [
+      "4 RP per ₹100 on flights, OTAs, and forex transactions (this is the base travel rate itself, capped at 50,000 total RP/month)",
+      "24 RP (12X) per ₹100 on hotels via HSBC portal · only the 20 RP bonus above the 4 RP travel base counts toward the 18,000 bonus points/month cap",
+      "16 RP (8X) per ₹100 on flights via HSBC portal · shares the same 18,000 bonus points/month cap as hotels",
+      "2 RP per ₹100 on all other eligible purchases"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Wallet loads",
+      "EMI transactions",
+      "Government services",
+      "Rent"
+    ],
+    "reward_categories": [],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hsbc-live-plus",
+    "name": "HSBC Live+ Credit Card",
+    "bank": "HSBC Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹2L Spend",
+    "categories": [
+      "Dining",
+      "Food Delivery",
+      "Groceries"
+    ],
+    "key_perks": [
+      "10% Cashback on dining, food delivery, and groceries (capped at ₹1,000/month)",
+      "1.5% Unlimited Cashback on shopping, entertainment, pharmacy, and general retail",
+      "4 complimentary domestic lounge visits per year (max 1 per quarter)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Flive%2B.png&w=3840&q=75",
+    "affiliate_url": "https://bitli.in/5LJrhLz",
+    "full_review_slug": "hsbc-live-plus",
+    "_detail_url": "/cards/hsbc-live-plus",
+    "network": "Visa",
+    "annual_fee": 999,
+    "joining_fee": 999,
+    "fee_waiver_label": "₹2 Lakhs annual spend",
+    "fee_waiver_spend": 200000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback to statement · no RP conversion needed",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10% cashback on dining, food delivery & grocery · 1.5% cashback on all other spends · 10% category capped at ₹1,000/month",
+    "joining_benefits": [
+      "₹1,000 bonus cashback on spending ₹20,000 within 30 days of card activation"
+    ],
+    "renewal_benefits": [
+      "Annual fee waiver on ₹2 Lakhs spend in the previous membership year"
+    ],
+    "earns_on": [
+      "10% Cashback on dining and groceries (strictly capped at ₹1,000 per month)",
+      "1.5% Cashback on general retail (uncapped)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallets",
+      "Insurance",
+      "Education",
+      "Government transactions",
+      "Utility bill payments"
+    ],
+    "reward_categories": [
+      "Dining",
+      "Food Delivery",
+      "Groceries"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hsbc-rupay-platinum",
+    "name": "HSBC RuPay Platinum Credit Card",
+    "bank": "HSBC Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [],
+    "key_perks": [
+      "UPI enabled for merchant Scan & Pay",
+      "Global acceptance via JCB network",
+      "10% off on Swiggy Instamart (up to ₹200 per order)",
+      "5% off on Paytm Bill Pay (up to ₹150)",
+      "Fuel surcharge waiver up to ₹3,000 per year"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fhsbcrupay.png&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/hBYq1A",
+    "full_review_slug": "hsbc-rupay-platinum",
+    "_detail_url": "/cards/hsbc-rupay-platinum",
+    "network": "RuPay / JCB",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": "Nil (Lifetime Free)",
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP ≈ ₹0.20 – ₹0.50 (via 2:1 transfer to Accor / KrisFlyer)",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "2 Reward Points per ₹150",
+    "joining_benefits": [
+      "₹500 cashback on spending ₹5,000 in the first 30 days",
+      "2-month EazyDiner Prime membership"
+    ],
+    "renewal_benefits": [],
+    "earns_on": [
+      "2 RP per ₹150 on all retail and UPI spends"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallets",
+      "Government transactions",
+      "Utilities"
+    ],
+    "reward_categories": [],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "bob-etihad-guest-premium",
+    "name": "BOB Etihad Guest Premium Credit Card",
+    "bank": "Bank of Baroda",
+    "fee_type": "paid",
+    "fee_label": "₹5,000 + GST · Waived at ₹5L Spend",
+    "categories": [
+      "Travel",
+      "International",
+      "Airline Miles"
+    ],
+    "key_perks": [
+      "Metal card construction",
+      "12 domestic (3/quarter) + 8 international (2/quarter) lounge visits/year · no spend condition attached",
+      "Etihad Guest Silver tier granted automatically from your first card transaction",
+      "Gold tier unlocked on a single ₹10,000+ transaction directly on Etihad.com within 6 months · a token fee does not qualify, the purchase must clear ₹10,000 in one go",
+      "Gold tier perks: priority check-in, fast-track immigration, priority boarding & baggage, standard seat selection (self + 1), guaranteed economy seat up to 48h prior, 50% bonus miles on flights, dedicated contact center, 30% off AWNIC insurance, Avis Budget tier match, tier buy-back (150,000 miles, co-brands only)",
+      "Choose-any-4 Custom Benefits menu: Etihad Chauffeur, Business Lounge access (self + 1), home check-in, complimentary fare refunds, Reward Shop vouchers, or extra baggage allowance",
+      "0% forex markup on all international spends",
+      "1% fuel surcharge waiver, ₹500–₹5,000/txn, capped ₹250/statement cycle",
+      "Smart EMI conversion on purchases of ₹2,500 and above"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fetihad.png&w=3840&q=75",
+    "affiliate_url": "https://captaintorch.in/go/bob-etihad",
+    "full_review_slug": "bob-etihad-guest-premium",
+    "_detail_url": "/cards/bob-etihad-guest-premium",
+    "network": "Mastercard World",
+    "annual_fee": 5000,
+    "joining_fee": 5000,
+    "fee_waiver_label": "₹5L annual spend",
+    "fee_waiver_spend": 500000,
+    "forex_markup": "Zero forex markup",
+    "point_value": "1 Etihad Guest Mile ≈ ₹0.50–₹0.60 realistic cash-out (Reward Card/gift vouchers) · often modelled at ₹1.00 for headline reward-rate math",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "6 Etihad Guest Miles per ₹100 on direct Etihad Airways spends; 2 Miles per ₹100 on all other domestic & international spends",
+    "joining_benefits": [
+      "10,000 bonus Etihad Guest Miles on spending ₹25,000 within 60 days of card issuance · this qualifying spend has no MCC exclusions",
+      "+5,000 bonus Miles on cumulative ₹50,000 spend within 60 days · booster promotion originally advertised through Aug 31, 2026, extended through Sep 30, 2026, verify current validity before applying",
+      "Complimentary Silver tier status from the first transaction"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹5L+ spend in the card year",
+      "Milestone Miles continue: 500/month, 4,000/quarter, 24,000/year on qualifying spend"
+    ],
+    "earns_on": [
+      "Direct Etihad Airways bookings (6 Miles/₹100)",
+      "General retail, dining & travel (2 Miles/₹100)",
+      "International spends at 0% forex (2 Miles/₹100)"
+    ],
+    "does_not_earn_on": [
+      "Telecom bills",
+      "Rent",
+      "Government transactions",
+      "Education fees",
+      "Hospital/medical expenses",
+      "Insurance premiums",
+      "Wallet loads",
+      "Charitable donations"
+    ],
+    "reward_categories": [
+      "Travel",
+      "International",
+      "Airline Miles"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "salaryse-levelup",
+    "name": "SalarySe LevelUp Credit Card",
+    "bank": "City Union Bank",
+    "fee_type": "paid",
+    "fee_label": "₹590 + GST · Waived on ₹2 Lakh annual spend",
+    "categories": [
+      "UPI",
+      "Everyday Spends",
+      "Gift Cards"
+    ],
+    "key_perks": [
+      "1 complimentary domestic airport lounge visit per month on ₹10,000 monthly spend (physical card only)",
+      "7.5% Salary Day Bonus on UPI spends up to ₹15,000 · available only on the 1st and last day of each calendar month, after ₹5,000 of regular spend that month",
+      "2% \"Super Accelerated\" rewards on UPI, online, and offline spends above ₹20,000/month",
+      "Amazon Pay, Amazon Shopping & Flipkart Gift Vouchers: 0.1% discount on purchase + 0.1% extra on SCoin redemption (0.2% combined) · also works on Gyftr UPI gift cards",
+      "₹100 off on Zomato orders of ₹299+ · usable twice a month",
+      "Annual fee waived entirely on ₹2 Lakh annual spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fsalaryse.png&w=3840&q=75",
+    "affiliate_url": "https://salaryse.onelink.me/qtf7/7iijcosr",
+    "full_review_slug": "salaryse-levelup",
+    "_detail_url": "/cards/salaryse-levelup",
+    "network": "RuPay",
+    "annual_fee": 590,
+    "joining_fee": 590,
+    "fee_waiver_label": "₹2 Lakh annual spend",
+    "fee_waiver_spend": 200000,
+    "forex_markup": "Not built for international use · RuPay card with limited overseas acceptance",
+    "point_value": "5 SCoins = ₹1 · redeemable for Gift Vouchers via the SalarySe app (Amazon Pay GV, Gyftr UPI, and more)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "1% base (up to ₹20K/month) · 2% above ₹20K/month · 7.5% Salary Day Bonus on UPI spends up to ₹15K (1st & last day of month)",
+    "joining_benefits": [
+      "₹250 worth of Gift Vouchers from SalarySe on successful card activation"
+    ],
+    "renewal_benefits": [],
+    "earns_on": [
+      "1% (5 SCoins/₹100) on UPI, online & offline spends up to ₹20,000/month",
+      "2% (10 SCoins/₹100) on UPI, online & offline spends above ₹20,000/month",
+      "7.5% (37.5 SCoins/₹100) Salary Day Bonus on UPI spends, capped at ₹15,000, only on the 1st & last day of the month · requires ₹5,000 of regular spend that month to unlock",
+      "0.2% (1 SCoin/₹100) on rent, government, insurance, education, utilities, and railways"
+    ],
+    "does_not_earn_on": [
+      "Wallet loads",
+      "Fuel",
+      "Cash advances",
+      "Gambling",
+      "Quasi-cash"
+    ],
+    "reward_categories": [
+      "UPI",
+      "Everyday Spends",
+      "Gift Cards"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "icici-amazon-pay",
+    "name": "Amazon Pay ICICI Credit Card",
+    "bank": "ICICI Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Amazon",
+      "Online",
+      "Grocery",
+      "Shopping"
+    ],
+    "key_perks": [
+      "5% back on all Amazon.in purchases (Prime members) · 3% back (non-Prime) · cashback is unlimited with no monthly cap",
+      "2% back at Amazon Pay partner merchants · 1% back on all other transactions · no annual fee, ever",
+      "Fuel surcharge waiver at HPCL pumps (1% waiver, min ₹400, max ₹4,000/txn)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/icici-amazon-pay",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 Amazon Pay reward = ₹1 · credited directly to Amazon Pay balance",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "5% back on Amazon for Prime members · 3% back for non-Prime members · 2% back on Amazon Pay partner merchants · 1% back on all other spends",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "5% cashback on Amazon starts from first transaction (Prime members)",
+      "Instant credit of cashback to Amazon Pay balance"
+    ],
+    "renewal_benefits": [
+      "No renewal fee ever (Lifetime Free)",
+      "All cashback rates and benefits continue without any action"
+    ],
+    "earns_on": [
+      "Amazon.in purchases",
+      "Amazon Pay partner merchants",
+      "All retail spends (1%)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Fuel (surcharge waiver at HPCL only)",
+      "EMI conversions",
+      "Cash advances"
+    ],
+    "reward_categories": [
+      "Amazon",
+      "Online",
+      "Grocery",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-ace",
+    "name": "Axis Ace Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹2L Spend",
+    "categories": [
+      "Utilities",
+      "Dining",
+      "Travel",
+      "Online",
+      "Offline"
+    ],
+    "key_perks": [
+      "1.5% unlimited cashback on ALL other eligible spends · no monthly cap · no merchant restrictions (w.e.f. April 20, 2024 · was 2% earlier)",
+      "5% cashback on utility bill payments (electricity, water, gas, LPG, broadband), DTH and mobile recharges via Google Pay · capped ₹500/statement (combined with 4% category)",
+      "4% cashback on Swiggy, Zomato, and Ola · 4 complimentary domestic lounge visits/year (1/quarter · requires ₹50,000 spend preceding quarter)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-ace",
+    "network": "Visa",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver_label": "₹2L annual spend",
+    "fee_waiver_spend": 200000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback to statement · no RP conversion needed",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5% cashback on bill payments and recharges via Google Pay · 4% on Swiggy, Zomato, Ola · 1.5% unlimited cashback on all other eligible spends (w.e.f. April 20, 2024)",
+    "joining_benefits": [
+      "₹499 joining fee (often waived on application with bank offer)",
+      "1.5% cashback active from first transaction · no activation needed",
+      "5% on Google Pay utilities active from card receipt"
+    ],
+    "renewal_benefits": [
+      "Annual fee of ₹499 waived on ₹2L spend in the membership year",
+      "All cashback rates maintained on renewal"
+    ],
+    "earns_on": [
+      "All other eligible retail spends (1.5%)",
+      "Google Pay bill payments & recharges (5%)",
+      "Swiggy, Zomato, Ola (4%)"
+    ],
+    "does_not_earn_on": [
+      "Utility spends not via Google Pay",
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Insurance",
+      "Education",
+      "Government transactions",
+      "Financial institutions / cash withdrawal",
+      "EMI conversions",
+      "Gold/jewelry purchases"
+    ],
+    "reward_categories": [
+      "Utilities",
+      "Dining",
+      "Travel",
+      "Online",
+      "Offline"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-flipkart",
+    "name": "Axis Flipkart Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹500/year",
+    "categories": [
+      "Flipkart",
+      "Myntra",
+      "Cleartrip",
+      "Dining",
+      "Entertainment"
+    ],
+    "key_perks": [
+      "7.5% cashback at Myntra · cap ₹4,000 per statement quarter · MID-based, not all MCC 5691 merchants",
+      "5% cashback at Flipkart (excl. Flipkart Health) and Cleartrip · cap ₹4,000/quarter each · MID-based",
+      "4% cashback at preferred merchants: Swiggy Food Delivery (not Instamart/Genie), PVR, Tata Play, Urban Company · unlimited · 1% on all other eligible spends · 4 domestic lounge visits/year"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-flipkart",
+    "network": "Visa",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback credited to statement 3 days before next statement date · no RP conversion · min transaction ₹100 · cashback rounded down per transaction",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "7.5% cashback at Myntra (cap ₹4,000/quarter) · 5% at Flipkart and Cleartrip (cap ₹4,000/quarter each) · 4% at preferred merchants (Swiggy Food, PVR, Tata Play, Urban Company) unlimited · 1% on all other eligible spends unlimited",
+    "joining_benefits": [
+      "5% cashback at Flipkart active from first transaction",
+      "15% discount up to ₹500 on first Myntra purchase"
+    ],
+    "renewal_benefits": [
+      "Annual fee of ₹500 charged every year (no waiver)",
+      "All cashback rates continue on renewal"
+    ],
+    "earns_on": [
+      "Myntra (7.5% · cap ₹4,000/quarter)",
+      "Flipkart (5% · cap ₹4,000/quarter)",
+      "Cleartrip (5% · cap ₹4,000/quarter)",
+      "Swiggy Food Delivery (4% · unlimited)",
+      "PVR, Tata Play, Urban Company (4% · unlimited)",
+      "All other eligible retail (1%)"
+    ],
+    "does_not_earn_on": [
+      "Gift cards on Flipkart & Myntra",
+      "Gold purchases",
+      "Fuel",
+      "Utilities",
+      "Telecom",
+      "Rent",
+      "Wallet loads",
+      "Insurance",
+      "Government transactions",
+      "Education",
+      "EMI conversions",
+      "Swiggy Instamart/Genie (only Swiggy Food earns 4%)"
+    ],
+    "reward_categories": [
+      "Flipkart",
+      "Myntra",
+      "Cleartrip",
+      "Dining",
+      "Entertainment"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "idfc-first-wealth",
+    "name": "IDFC FIRST Wealth Credit Card",
+    "bank": "IDFC FIRST Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Online",
+      "Dining",
+      "Travel",
+      "Retail",
+      "International"
+    ],
+    "key_perks": [
+      "10X reward multiplier on ALL eligible spends above ₹20,000 in a billing cycle · resets monthly",
+      "Lifetime Free · no joining or annual fee ever · one of the best premium LTF cards in India",
+      "4 complimentary domestic lounge visits/year · 2 international lounge visits/year (via Priority Pass)",
+      "Low 1.5% forex markup · among the lowest non-zero forex cards in India",
+      "1% rent surcharge (minimum ₹249) + 1% utility fee after ₹20,000 commercial threshold"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/vNfW2G",
+    "full_review_slug": null,
+    "_detail_url": "/cards/idfc-first-wealth",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25 · redemption via IDFC FIRST rewards portal for travel, vouchers, and statement credit",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X RP on spends above ₹20,000/month · 3X on below-threshold spends · up to 3X on UPI via RuPay · 10X does not apply to Govt, Education, Wallet (these earn 3X and do NOT count toward the ₹20K threshold)",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "3X RP from first transaction · 10X unlocks once monthly spend crosses ₹20,000",
+      "Lounge access via Priority Pass active from card receipt"
+    ],
+    "renewal_benefits": [
+      "No renewal fee ever (Lifetime Free)",
+      "10X/3X RP structure continues without reset",
+      "All lounge and insurance benefits maintained"
+    ],
+    "earns_on": [
+      "All eligible retail spends (3X base, 10X above 20K)",
+      "UPI via RuPay (up to 3X)",
+      "Dining, travel, and lifestyle"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Insurance (excluded from earning)",
+      "EMI transactions",
+      "ATM cash withdrawals",
+      "Education, Wallet, Govt (earn 3X but do NOT count toward 20K threshold)"
+    ],
+    "reward_categories": [
+      "Online",
+      "Dining",
+      "Travel",
+      "Retail",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sc-ultimate",
+    "name": "Standard Chartered Ultimate Credit Card",
+    "bank": "Standard Chartered Bank",
+    "fee_type": "paid",
+    "fee_label": "₹5,000/year",
+    "categories": [
+      "All Retail",
+      "Online",
+      "Dining",
+      "Travel",
+      "International"
+    ],
+    "key_perks": [
+      "3.3% flat cashback on all retail spends · historically one of the highest flat-rate cards in India",
+      "5 complimentary international lounge visits/year via Priority Pass · domestic lounges via card network",
+      "Complimentary golf game at select domestic courses · 1 game/month",
+      "BookMyShow: buy 1 get 1 free movie tickets (max ₹250 discount/ticket) · 2 times/month"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sc-ultimate",
+    "network": "Visa",
+    "annual_fee": 5000,
+    "joining_fee": 5000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 point = ₹1 (statement credit) · 3.3% effective return on eligible spends",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "3.3% flat cashback on all eligible retail spends · no category restrictions · 2 points per ₹150 degraded on utilities/grocery/government · Forex markup of 3.5%",
+    "joining_benefits": [
+      "₹5,000 joining voucher (Amazon / Hlifestyle / Marks & Spencer) on card activation",
+      "3.3% cashback active from first eligible transaction",
+      "Priority Pass and golf access active immediately"
+    ],
+    "renewal_benefits": [
+      "₹5,000 annual fee charged (no spend-based waiver for most users)",
+      "3.3% cashback and all premium benefits continue on renewal"
+    ],
+    "earns_on": [
+      "All eligible retail spends (3.3%)",
+      "Dining & restaurants",
+      "International transactions",
+      "Online shopping"
+    ],
+    "does_not_earn_on": [
+      "Medical/hospital equipment (MCC 5047)",
+      "Nondurable goods (MCC 5199)",
+      "Misc. personal services (MCC 7299)",
+      "Quasi-cash/money transfers (MCCs 6010, 6011, 6012, 6050, 6529, 6530, 6534, 6540)",
+      "Utilities degraded to ~2%",
+      "Grocery degraded to ~2%"
+    ],
+    "reward_categories": [
+      "All Retail",
+      "Online",
+      "Dining",
+      "Travel",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-millennia",
+    "name": "HDFC Millennia Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹1L Spend",
+    "categories": [
+      "Amazon",
+      "Flipkart",
+      "Myntra",
+      "Dining",
+      "Travel",
+      "Entertainment"
+    ],
+    "key_perks": [
+      "5% cashback at 10 partner merchants: Amazon, Flipkart, Myntra, Swiggy, Zomato, Uber, BookMyShow, Sony LIV, Tata CLiQ, Cult.fit · capped at ₹1,000/month total",
+      "1% cashback on all other spends including offline transactions · fuel surcharge waiver 1% (₹400–₹5,000 per txn)",
+      "8 complimentary domestic lounge visits/year (2/quarter) via Dreamfolks · international lounge access via HDFC Millennia Smart EMI card"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitli.in/32yodcD",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-millennia",
+    "network": "Visa / Mastercard",
+    "annual_fee": 1000,
+    "joining_fee": 1000,
+    "fee_waiver_label": "₹1L annual spend",
+    "fee_waiver_spend": 100000,
+    "forex_markup": "2% + GST",
+    "point_value": "1 CashPoint = ₹1 · redeemable as statement credit or at SmartBuy portal",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5% cashback on Amazon, Flipkart, Myntra, Swiggy, Zomato, Uber, BookMyShow, Sony LIV, Tata CLiQ, Cult.fit · 1% on all other spends · max ₹1,000 cashback/month on 5% partners",
+    "joining_benefits": [
+      "1,000 bonus CashPoints on card activation and first spend (worth ₹1,000)",
+      "5% cashback at all 10 partner merchants active from first transaction",
+      "8 domestic lounge visits active from card receipt"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹1L spend in membership year · very easy waiver target",
+      "1,000 CashPoints on renewal (on paying renewal fee)",
+      "All cashback rates and lounge benefits maintained"
+    ],
+    "earns_on": [
+      "Amazon (5%)",
+      "Flipkart & Myntra (5%)",
+      "Swiggy & Zomato (5%)",
+      "Uber & BookMyShow (5%)",
+      "Sony LIV, Tata CLiQ, Cult.fit (5%)",
+      "All retail (1%)"
+    ],
+    "does_not_earn_on": [
+      "Fuel (no cashback, surcharge waiver only)",
+      "Rent",
+      "Wallet loads (MCC 6540)",
+      "Government transactions",
+      "Insurance",
+      "EMI conversions",
+      "Cash advances"
+    ],
+    "reward_categories": [
+      "Amazon",
+      "Flipkart",
+      "Myntra",
+      "Dining",
+      "Travel",
+      "Entertainment"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-diners-black",
+    "name": "HDFC Diners Club Black Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "₹10,000/year · Invite Only",
+    "categories": [
+      "Travel",
+      "Hotels",
+      "Dining",
+      "Lifestyle",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic + international airport lounge access (Diners Club network globally)",
+      "Golf programme: unlimited rounds + coaching at select courses · no monthly limit",
+      "10X SmartBuy Hotels (33.33%) · 5X Flights & Lifestyle (16.67%) · accelerated RP capped at 7,500/month · daily 2,500 (from July 2026)",
+      "Weekend dining at select Michelin-star restaurants via Good Food Trail · complimentary with Diners privileges"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitli.in/32yodcD",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-diners-black",
+    "network": "Diners Club",
+    "annual_fee": 10000,
+    "joining_fee": 10000,
+    "fee_waiver_label": "₹5L annual spend",
+    "fee_waiver_spend": 500000,
+    "forex_markup": "2% + GST",
+    "point_value": "Point Value1 RP = ₹1 (SmartBuy) · 1 RP = 1 Air Mile · 1 RP = 1 Accor point",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5 RP per ₹150 base (3.33%); 10X on SmartBuy Hotels & Flights (33.33%) · accelerated RP capped at 7,500 bonus RP/month (from July 2026) · brand vouchers (Gyftr/Woohoo) sub-cap 3,000 RP/month · daily cap 2,500 RP",
+    "joining_benefits": [
+      "10,000 bonus RP on paying joining fee",
+      "Club Marriott membership (1 year)",
+      "Unlimited lounge access from day one"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹5L spend",
+      "10,000 RP on renewal fee",
+      "All lounge and golf benefits continue"
+    ],
+    "earns_on": [
+      "SmartBuy Hotels (10X)",
+      "SmartBuy Flights (5X)",
+      "All retail (5 RP/₹150)",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "EMI conversions"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Hotels",
+      "Dining",
+      "Lifestyle",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-diners-privilege",
+    "name": "HDFC Diners Club Privilege Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "₹2,500/year",
+    "categories": [
+      "Travel",
+      "Hotels",
+      "Lifestyle"
+    ],
+    "key_perks": [
+      "12 complimentary domestic lounge visits + 6 Diners Club international lounge visits/year",
+      "10X RP on SmartBuy Hotels · 5X on Flights and partner lifestyle brands",
+      "Annual milestone vouchers: ₹500 at ₹1.5L/quarter + ₹5,000 at ₹5L annual spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-diners-privilege",
+    "network": "Diners Club",
+    "annual_fee": 2500,
+    "joining_fee": 2500,
+    "fee_waiver_label": "₹3L annual spend",
+    "fee_waiver_spend": 300000,
+    "forex_markup": "2% + GST",
+    "point_value": "Point Value1 RP = ₹0.50 (SmartBuy) · 1 RP = 1 Air Mile",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "4 RP per ₹150 base; 10X SmartBuy Hotels; 5X Flights; milestone vouchers",
+    "joining_benefits": [
+      "2,500 bonus RP on joining fee",
+      "Immediate SmartBuy 10X access",
+      "12 domestic + 6 international lounge visits"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹3L spend",
+      "2,500 RP on renewal",
+      "All milestone vouchers continue"
+    ],
+    "earns_on": [
+      "SmartBuy Hotels & Flights",
+      "Partner lifestyle brands",
+      "Retail spends"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Hotels",
+      "Lifestyle"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-tata-neu-infinity",
+    "name": "Tata Neu Infinity HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹3L Spend",
+    "categories": [
+      "Tata Brands",
+      "Grocery",
+      "Travel",
+      "Electronics",
+      "Health"
+    ],
+    "key_perks": [
+      "10% NeuCoins on Tata brands via NeuPass · Air Asia India, Tata 1mg, BigBasket, Croma, IHCL hotels, Tata Play, Westside, Zudio",
+      "5% NeuCoins on non-NeuPass Tata brands · 1.5% on all other eligible spends",
+      "4 complimentary domestic lounge visits/year · complimentary NeuPass membership (₹499/year value)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-tata-neu-infinity",
+    "network": "Visa",
+    "annual_fee": 1499,
+    "joining_fee": 1499,
+    "fee_waiver_label": "₹3L annual spend",
+    "fee_waiver_spend": 300000,
+    "forex_markup": "2% + GST",
+    "point_value": "1 NeuCoin = ₹1 · redeemable on Tata brand ecosystem (BigBasket, Croma, 1mg, Air Asia India, IHCL hotels)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10% NeuCoins on Tata brands via NeuPass; 5% NeuCoins on other Tata brands; 1.5% on all other eligible spends",
+    "joining_benefits": [
+      "500 NeuCoins on card activation",
+      "NeuPass membership free for 1 year",
+      "10% NeuCoins active from first Tata brand purchase"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹3L annual spend",
+      "500 NeuCoins on renewal",
+      "NeuPass membership renewed"
+    ],
+    "earns_on": [
+      "Tata ecosystem brands (10%)",
+      "Non-NeuPass Tata brands (5%)",
+      "All retail (1.5%)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Tata Brands",
+      "Grocery",
+      "Travel",
+      "Electronics",
+      "Health"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-moneyback-plus",
+    "name": "HDFC MoneyBack+ Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹50K Spend",
+    "categories": [
+      "Amazon",
+      "Flipkart",
+      "Food Delivery",
+      "Grocery"
+    ],
+    "key_perks": [
+      "10X CashPoints on Swiggy, Amazon, Flipkart, BigBasket · effectively 2.5% statement credit on these platforms",
+      "2X CashPoints on all other eligible spends · easy ₹50,000 fee waiver threshold",
+      "CashPoints redeemable as statement credit, SmartBuy travel, or product vouchers"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-moneyback-plus",
+    "network": "Visa",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": "₹50,000 annual spend",
+    "fee_waiver_spend": 50000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 CashPoint = ₹0.25 (statement credit) · 10X earns effectively 2.5% cashback on partners",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X CashPoints on Swiggy, Amazon, Flipkart, and BigBasket; 2X on all other spends; points redeemable as statement credit",
+    "joining_benefits": [
+      "500 CashPoints on joining",
+      "10X on partner merchants from first transaction",
+      "Immediate card benefits"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹50,000 annual spend (very easy target)",
+      "500 CashPoints on renewal fee",
+      "All rewards continue"
+    ],
+    "earns_on": [
+      "Amazon, Flipkart, Swiggy, BigBasket (10X)",
+      "All other retail (2X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Amazon",
+      "Flipkart",
+      "Food Delivery",
+      "Grocery"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-indianoil",
+    "name": "IndianOil HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹50K Spend",
+    "categories": [
+      "Fuel",
+      "Grocery",
+      "Dining"
+    ],
+    "key_perks": [
+      "50 Fuel Points per ₹150 at IndianOil petrol stations · equivalent to ~₹1/₹3 spent = 33% effective fuel savings on eligible amounts",
+      "Fuel surcharge waiver at IndianOil stations · no surcharge on any fuel transaction",
+      "25 Fuel Points per ₹150 at grocery stores and dining · 10 Fuel Points on all other eligible spends"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/zx2PDx",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-indianoil",
+    "network": "Visa",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": "₹50,000 annual spend",
+    "fee_waiver_spend": 50000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 Fuel Point = ₹1 off on IndianOil fuel purchase",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "50 Fuel Points per ₹150 at IndianOil petrol pumps; 25 Fuel Points at Grocery/Dining; 10 Fuel Points on all other spends",
+    "joining_benefits": [
+      "250 Fuel Points on first fuel transaction at IndianOil",
+      "Fuel surcharge waiver active from card receipt",
+      "Immediate 50 points/₹150 at IndianOil"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹50,000 annual spend",
+      "250 Fuel Points on renewal",
+      "Fuel surcharge waiver continues"
+    ],
+    "earns_on": [
+      "IndianOil fuel purchases (50 pts/₹150)",
+      "Grocery & dining (25 pts/₹150)",
+      "All retail (10 pts/₹150)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Fuel",
+      "Grocery",
+      "Dining"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sbi-aurum",
+    "name": "SBI Aurum Credit Card",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "₹9,999/year · Premium",
+    "categories": [
+      "Travel",
+      "Lifestyle",
+      "Dining",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic airport lounge access for primary and add-on cardholders",
+      "12 complimentary international lounge visits/year via Priority Pass (6 primary + 6 add-on)",
+      "4 complimentary golf green fees/year + unlimited coaching at select courses",
+      "Concierge services: travel booking, dining reservations, event tickets, emergency assistance"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sbi-aurum",
+    "network": "Visa / Mastercard",
+    "annual_fee": 9999,
+    "joining_fee": 9999,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.99% + GST",
+    "point_value": "Point Value1 RP = ₹0.25 (vouchers/statement) · transferable to select loyalty programmes",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "4 RP per ₹100 on all eligible spends; milestone benefits; co-branded rewards on selected partners",
+    "joining_benefits": [
+      "₹9,999 equivalent voucher bundle on card activation (Hlifestyle / Tanishq / Yatra)",
+      "Priority Pass active from card receipt",
+      "Unlimited domestic lounge from day one"
+    ],
+    "renewal_benefits": [
+      "₹9,999 voucher bundle on renewal",
+      "All premium benefits continue",
+      "Unlimited lounge + golf maintained"
+    ],
+    "earns_on": [
+      "All retail spends (4 RP/₹100)",
+      "Dining & travel",
+      "International transactions"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent (MCC 6513)",
+      "Wallet loads",
+      "Government transactions",
+      "Gaming",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Lifestyle",
+      "Dining",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sbi-elite",
+    "name": "SBI Card ELITE",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "₹4,999/year",
+    "categories": [
+      "Dining",
+      "Grocery",
+      "Shopping",
+      "Travel"
+    ],
+    "key_perks": [
+      "2 complimentary international airport lounge visits/year via Priority Pass",
+      "8 complimentary domestic lounge visits/year via Visa / Mastercard lounge programme",
+      "5X RP on dining (MCC 5812), grocery (MCC 5411), and departmental stores (MCC 5311)",
+      "Club Vistara Silver status on card activation · earn CV Points on all spends"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/kXVp9T",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sbi-elite",
+    "network": "Visa / Mastercard",
+    "annual_fee": 4999,
+    "joining_fee": 4999,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.99% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5X RP on dining, groceries, departmental stores; 2X RP on all other spends · monthly bonus rewards on achieving milestones",
+    "joining_benefits": [
+      "₹5,000 worth e-vouchers on joining (Hlifestyle / Pantaloons / Yatra)",
+      "Priority Pass active from card receipt",
+      "Club Vistara Silver status immediately"
+    ],
+    "renewal_benefits": [
+      "₹2,500 voucher on renewal",
+      "2 Priority Pass visits renewed",
+      "CV Silver status maintained on spend"
+    ],
+    "earns_on": [
+      "Dining & restaurants (5X)",
+      "Grocery stores (5X)",
+      "Departmental stores (5X)",
+      "All retail (2X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "Gaming (5816)",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Dining",
+      "Grocery",
+      "Shopping",
+      "Travel"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sbi-prime",
+    "name": "SBI Card PRIME",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "₹2,999/year",
+    "categories": [
+      "Dining",
+      "Grocery",
+      "Shopping"
+    ],
+    "key_perks": [
+      "3 complimentary domestic lounge visits/year + 1 international visit via Priority Pass",
+      "10X RP on dining, grocery, and departmental stores (MCC 5411, 5812, 5311)",
+      "Welcome voucher worth ₹3,000 (Amazon/Pantaloons/Hlifestyle/Yatra) on joining",
+      "Birthday bonus: 20X RP on spends on birthday month (capped at 2,000 RP)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/1xIDas",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sbi-prime",
+    "network": "Visa / Mastercard",
+    "annual_fee": 2999,
+    "joining_fee": 2999,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X RP on dining, departmental stores, grocery; 2X RP on all other spends · quarterly benefits on milestone spend",
+    "joining_benefits": [
+      "₹3,000 voucher on card activation",
+      "3 domestic + 1 international lounge from day one",
+      "10X rewards active immediately"
+    ],
+    "renewal_benefits": [
+      "₹1,500 voucher on renewal",
+      "3 domestic lounge visits renewed",
+      "10X on key categories continues"
+    ],
+    "earns_on": [
+      "Dining, grocery, dept stores (10X)",
+      "Birthday month spends (20X, capped)",
+      "All retail (2X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "Gaming",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Dining",
+      "Grocery",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sbi-simplyclick",
+    "name": "SBI SimplyCLICK Credit Card",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹1L Online Spend",
+    "categories": [
+      "Amazon",
+      "Food Delivery",
+      "Travel",
+      "Entertainment",
+      "Online"
+    ],
+    "key_perks": [
+      "10X RP on 7 exclusive partner merchants: Amazon, BookMyShow, Cleartrip, Lenskart, Netmeds, Swiggy, Yatra · cap 10,000 RP/month on 10X partners",
+      "5X RP on all other online purchases · 1X on offline spends · annual fee waived on ₹1L online spend",
+      "₹2,000 cleartrip voucher on achieving ₹1L annual online spend (additional milestone benefit)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/7rNIBO",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sbi-simplyclick",
+    "network": "Visa",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver_label": "₹1L annual online spend",
+    "fee_waiver_spend": 100000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X RP on Amazon, BookMyShow, Cleartrip, Lenskart, Netmeds, Swiggy, Yatra; 5X on all other online spends; 1X offline",
+    "joining_benefits": [
+      "₹500 Amazon voucher on first spend",
+      "10X rewards at partner merchants active immediately",
+      "5X on all online active from card receipt"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹1L online spend",
+      "₹2,000 cleartrip voucher on ₹1L milestone",
+      "All rewards continue"
+    ],
+    "earns_on": [
+      "Partner brand merchants (10X)",
+      "All other online spends (5X)",
+      "Offline retail (1X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "Gaming platforms",
+      "EMI",
+      "Cash advances"
+    ],
+    "reward_categories": [
+      "Amazon",
+      "Food Delivery",
+      "Travel",
+      "Entertainment",
+      "Online"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sbi-simplysave",
+    "name": "SBI SimplySAVE Credit Card",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹1L Spend",
+    "categories": [
+      "Dining",
+      "Entertainment",
+      "Grocery",
+      "Shopping"
+    ],
+    "key_perks": [
+      "10X RP on dining (MCC 5812), movies (MCC 7832), departmental stores (MCC 5311), and grocery (MCC 5411) · cap 5,000 RP/month across all 10X categories",
+      "1X RP on all other eligible spends · annual fee waived on ₹1L spend (very easy)",
+      "Fuel surcharge waiver of 1% on transactions ₹500–₹3,000 (cap ₹100/statement)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/7rNIBO",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sbi-simplysave",
+    "network": "Visa",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver_label": "₹1L annual spend",
+    "fee_waiver_spend": 100000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X RP on dining, movies, departmental stores, grocery; 1X on all other spends · cap 5,000 RP/month on 10X categories",
+    "joining_benefits": [
+      "2,000 bonus RP on first spend",
+      "10X on key categories from first transaction",
+      "Fuel surcharge waiver active immediately"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹1L annual spend",
+      "2,000 RP on renewal fee payment",
+      "All rewards continue"
+    ],
+    "earns_on": [
+      "Dining, movies, grocery, dept stores (10X, capped 5,000 RP/month)",
+      "All retail (1X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel (surcharge waiver only)",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "Gaming",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Dining",
+      "Entertainment",
+      "Grocery",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sbi-bpcl-octane",
+    "name": "BPCL SBI Card Octane",
+    "bank": "SBI Card",
+    "fee_type": "paid",
+    "fee_label": "₹1,499/year",
+    "categories": [
+      "Fuel",
+      "Grocery",
+      "Dining",
+      "Entertainment"
+    ],
+    "key_perks": [
+      "7.25% effective valueback on BPCL petrol/diesel: 25 RP/₹100 (6.25%) + 1% fuel surcharge waiver · no cap on fuel RP",
+      "10X RP on grocery (MCC 5411), dining (MCC 5812), and movies · 1X on all other spends",
+      "4 complimentary domestic lounge visits/year · 1/quarter"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/7rNIBO",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sbi-bpcl-octane",
+    "network": "Visa",
+    "annual_fee": 1499,
+    "joining_fee": 1499,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "7.25% valueback on BPCL fuel (25 RP per ₹100 at BPCL + 1% surcharge waiver); 10X RP on grocery, dining, movies; 1X on all other spends",
+    "joining_benefits": [
+      "6,000 bonus RP on joining (worth ₹1,500)",
+      "7.25% BPCL fuel rewards from first fuel transaction",
+      "4 lounge visits active from card receipt"
+    ],
+    "renewal_benefits": [
+      "₹1,499 annual fee renewed yearly",
+      "3,000 RP on renewal",
+      "All BPCL and category rewards continue"
+    ],
+    "earns_on": [
+      "BPCL fuel purchases (25 RP/₹100)",
+      "Grocery, dining, movies (10X)",
+      "All retail (1X)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "Gaming",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Fuel",
+      "Grocery",
+      "Dining",
+      "Entertainment"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-infinia",
+    "name": "HDFC Infinia Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "₹12,500/year · Invite Only",
+    "categories": [
+      "Travel",
+      "Hotels",
+      "Lifestyle",
+      "Shopping",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic + international Priority Pass lounge access · no spend threshold · primary and add-on cardholders",
+      "Unlimited complimentary golf at leading courses across India + select international courses · unlimited coaching sessions",
+      "1+1 complimentary buffet at ITC Hotels · 1 booking/month · book via HDFC Infinia concierge",
+      "2+1 complimentary night stay at ITC Hotels (pay 2 nights, get 1 free · advance booking)",
+      "Up to ₹500 off on Swiggy Dineout · twice/month · min bill ₹3,500",
+      "24x7 global concierge · golf booking, private dining, airport VIP, itinerary planning",
+      "1% fuel surcharge waiver · up to ₹1,000/statement cycle · txn range ₹400–₹1,00,000",
+      "Insurance: ₹3 crore air accident cover · ₹50L medical emergency (international air travel) · credit shield cover"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-infinia",
+    "network": "Visa Infinite",
+    "annual_fee": 12500,
+    "joining_fee": 12500,
+    "fee_waiver_label": "₹10L annual spend",
+    "fee_waiver_spend": 1000000,
+    "forex_markup": "2% + GST",
+    "point_value": "Point Value1 RP = ₹1 (SmartBuy travel/hotels · Tanishq · Apple) · ₹0.50 (vouchers) · ₹0.30 (cashback) · 1 RP = 1 Accor ALL point · 1 RP = 1 AirMile",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5 RP per ₹150 base (3.33%); 10X on SmartBuy Hotels & Flights (33.33%) · accelerated RP capped at 15,000 bonus RP/month · brand vouchers (Gyftr/Woohoo) sub-cap 3,000 RP/month · grocery/telecom/utility cap 2,000 RP/month · insurance cap 10,000 RP/month",
+    "joining_benefits": [
+      "12,500 bonus RP on paying joining fee (worth ₹12,500 at SmartBuy)",
+      "Complimentary Club Marriott membership (1 year) · 20% off F&B + rooms at participating Marriott hotels",
+      "Unlimited domestic + international Priority Pass lounge access from day one",
+      "Unlimited golf programme active immediately"
+    ],
+    "renewal_benefits": [
+      "Renewal fee waived on ₹10L annual spend",
+      "12,500 renewal RP on paying renewal fee (worth ₹12,500 at SmartBuy)",
+      "All lounge, golf, ITC hotel, and concierge benefits continue on renewal"
+    ],
+    "earns_on": [
+      "SmartBuy hotel & flight bookings (10X)",
+      "Retail & online shopping",
+      "Dining & restaurants",
+      "International transactions",
+      "Lifestyle & entertainment"
+    ],
+    "does_not_earn_on": [
+      "Fuel (no RP earned, surcharge waiver only)",
+      "Rent",
+      "Wallet loads / e-wallet reloading",
+      "Government transactions",
+      "EasyEMI / EMI conversions",
+      "Cash advances",
+      "Grocery/telecom/utility (capped at 2,000 RP/month)",
+      "Insurance (capped at 10,000 RP/month)"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Hotels",
+      "Lifestyle",
+      "Shopping",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "icici-emeralde-private-metal",
+    "name": "ICICI Bank Emeralde Private Metal Credit Card",
+    "bank": "ICICI Bank",
+    "fee_type": "paid",
+    "fee_label": "₹12,499/year · Invite Only",
+    "categories": [
+      "All Retail",
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic and international airport lounge access for primary and add-on cardholders · global Priority Pass membership",
+      "Complimentary golf at leading courses in India and internationally · unlimited rounds",
+      "Low 1.5% forex markup · among the best in premium segment · ideal for frequent international travellers",
+      "₹1,500 monthly dining benefit at premium restaurants via EazyDiner"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/icici-emeralde-private-metal",
+    "network": "Visa Infinite",
+    "annual_fee": 12499,
+    "joining_fee": 12499,
+    "fee_waiver_label": "₹10L annual spend",
+    "fee_waiver_spend": 1000000,
+    "forex_markup": "1.5% + GST",
+    "point_value": "1 ICICI Reward Point = ₹1 · transferable to frequent flyer miles",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "6 ICICI Reward Points per ₹200 on all eligible spends (3%) · capped at 1,000 RP on grocery/utility/education per statement cycle per category",
+    "joining_benefits": [
+      "₹12,000 joining voucher (Hlifestyle / Tanishq / Flight)",
+      "Unlimited lounge from day one",
+      "Golf programme active immediately"
+    ],
+    "renewal_benefits": [
+      "₹12,000 voucher on renewal",
+      "All premium benefits continue",
+      "Unlimited lounge and golf maintained"
+    ],
+    "earns_on": [
+      "All retail spends (3%)",
+      "Dining & travel (3%)",
+      "International transactions (3%)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Fuel",
+      "Government services",
+      "Tax payments",
+      "Wallet loads",
+      "Property management",
+      "Cash advances",
+      "EMI"
+    ],
+    "reward_categories": [
+      "All Retail",
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "icici-emeralde",
+    "name": "ICICI Bank Emeralde Credit Card",
+    "bank": "ICICI Bank",
+    "fee_type": "paid",
+    "fee_label": "₹12,000/year · Premium",
+    "categories": [
+      "All Retail",
+      "Travel",
+      "Dining",
+      "Shopping"
+    ],
+    "key_perks": [
+      "Unlimited domestic lounge access · 4 international lounge visits/year via Priority Pass",
+      "1% effective rewards rate on all eligible retail spends including dining, travel, and shopping",
+      "Monthly dining benefit of ₹1,000 at select premium restaurants via EazyDiner",
+      "BookMyShow offer available on spending ₹25,000 or more in the preceding quarter · revised w.e.f. January 15, 2026"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/icici-emeralde",
+    "network": "Visa / Mastercard",
+    "annual_fee": 12000,
+    "joining_fee": 12000,
+    "fee_waiver_label": "₹10L annual spend",
+    "fee_waiver_spend": 1000000,
+    "forex_markup": "2% + GST",
+    "point_value": "1 ICICI Reward Point = ₹0.25",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "4 ICICI Reward Points per ₹100 on all eligible spends (1%) · grocery, utility, education capped at 1,000 RP/category/cycle",
+    "joining_benefits": [
+      "₹12,000 joining voucher",
+      "Unlimited domestic lounge from day one",
+      "4 Priority Pass visits active"
+    ],
+    "renewal_benefits": [
+      "₹12,000 renewal voucher",
+      "All benefits maintained on renewal",
+      "Lounge + EazyDiner credit continue"
+    ],
+    "earns_on": [
+      "All retail (1%)",
+      "Dining (1%)",
+      "Travel (1%)",
+      "International (1%)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Fuel",
+      "Cash advances",
+      "EMI"
+    ],
+    "reward_categories": [
+      "All Retail",
+      "Travel",
+      "Dining",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "icici-sapphiro",
+    "name": "ICICI Bank Sapphiro Credit Card",
+    "bank": "ICICI Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,500/year · Fee Waiver at ₹6L Spend",
+    "categories": [
+      "Travel",
+      "Dining",
+      "Shopping"
+    ],
+    "key_perks": [
+      "2 complimentary international lounge visits/year via Priority Pass · 4 domestic lounge visits/year",
+      "Complimentary golf green fee waiver · 2 times/month at select courses",
+      "2 RP per ₹100 on all eligible spends · bonus reward on milestone spend",
+      "BookMyShow offer available on spending ₹25,000 or more in the preceding quarter · revised w.e.f. January 15, 2026"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/icici-sapphiro",
+    "network": "Visa",
+    "annual_fee": 3500,
+    "joining_fee": 6500,
+    "fee_waiver_label": "₹6L annual spend",
+    "fee_waiver_spend": 600000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 ICICI Reward Point = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 ICICI Reward Points per ₹100 on all eligible spends; accelerated on travel and dining",
+    "joining_benefits": [
+      "₹3,500 joining voucher (e-voucher or travel)",
+      "2 Priority Pass + 4 domestic lounge from day one",
+      "Golf access active immediately"
+    ],
+    "renewal_benefits": [
+      "₹2,500 renewal voucher",
+      "2 Priority Pass visits renewed",
+      "BookMyShow benefit continues subject to ₹25,000 spend in the preceding quarter"
+    ],
+    "earns_on": [
+      "All retail (2 RP/₹100)",
+      "Dining & travel (accelerated)",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Fuel",
+      "Cash advances",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Dining",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "icici-coral",
+    "name": "ICICI Bank Coral Credit Card",
+    "bank": "ICICI Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹1.5L Spend",
+    "categories": [
+      "Shopping",
+      "Dining",
+      "Entertainment"
+    ],
+    "key_perks": [
+      "2 complimentary domestic lounge visits/year · 1 per 6 months",
+      "2 RP per ₹100 on all eligible retail spends · easy ₹1.5L fee waiver threshold",
+      "BookMyShow offer available on spending ₹25,000 or more in the preceding quarter · revised w.e.f. January 15, 2026"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/icici-coral",
+    "network": "Visa / Mastercard",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": "₹1.5L annual spend",
+    "fee_waiver_spend": 150000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 ICICI Reward Point = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 ICICI Reward Points per ₹100 on retail spends; 1 point on utility and insurance; cashback on fuel",
+    "joining_benefits": [
+      "500 bonus RP on joining",
+      "2 domestic lounge visits from day one",
+      "BookMyShow benefit unlocks after ₹25,000 spend in the preceding quarter"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹1.5L spend (easy)",
+      "500 RP on renewal",
+      "BookMyShow benefit continues subject to ₹25,000 spend in the preceding quarter"
+    ],
+    "earns_on": [
+      "All retail (2 RP/₹100)",
+      "Dining",
+      "Online shopping"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Fuel",
+      "Cash advances",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Shopping",
+      "Dining",
+      "Entertainment"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "icici-hpcl-super-saver",
+    "name": "ICICI Bank HPCL Super Saver Credit Card",
+    "bank": "ICICI Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹1.5L Spend",
+    "categories": [
+      "Fuel",
+      "Grocery",
+      "Utility"
+    ],
+    "key_perks": [
+      "6.5% effective savings on HPCL fuel: 4% as RP + 1.5% as PAYBACK points on HP Pay + 1% fuel surcharge waiver · uncapped fuel rewards",
+      "5% cashback on grocery and utility bill payments via HPCL HP Pay mobile app",
+      "2 ICICI Reward Points per ₹150 on all other eligible spends",
+      "BookMyShow offer available on spending ₹25,000 or more in the preceding quarter · applies to ICICI Bank HPCL credit card variants from January 15, 2026"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/icici-hpcl-super-saver",
+    "network": "Visa",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": "₹1.5L annual spend",
+    "fee_waiver_spend": 150000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 ICICI Reward Point = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "6.5% savings on HPCL fuel (4% RP + 1.5% HP Pay RP + 1% surcharge waiver); 5% on grocery and utility via HPCL HP Pay app; 2 ICICI Reward Points per ₹150 on all other spends",
+    "joining_benefits": [
+      "₹500 Paytm voucher on joining",
+      "6.5% fuel savings from first HPCL transaction",
+      "5% HP Pay app cashback active immediately"
+    ],
+    "renewal_benefits": [
+      "Annual fee waived on ₹1.5L spend in the membership year",
+      "All fuel and grocery savings continue",
+      "BookMyShow benefit continues subject to ₹25,000 spend in the preceding quarter"
+    ],
+    "earns_on": [
+      "HPCL fuel (6.5% savings)",
+      "Grocery & utility via HP Pay (5%)",
+      "All retail (2 RP/₹150)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Cash advances",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Fuel",
+      "Grocery",
+      "Utility"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-reserve",
+    "name": "Axis Reserve Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹50,000/year · Ultra Premium",
+    "categories": [
+      "Travel",
+      "International",
+      "Lifestyle",
+      "Dining"
+    ],
+    "key_perks": [
+      "Unlimited domestic + international airport lounge access globally for primary + add-on cardholders · worldwide Priority Pass",
+      "Meet & greet service at 300+ airports worldwide · unlimited golf at 2,500+ courses worldwide",
+      "1.5% forex markup · complimentary airport transfers · personal concierge 24/7",
+      "EDGE MILES transferable to Vistara, Singapore Airlines, Etihad, Marriott, Hilton, and more"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-reserve",
+    "network": "Visa Infinite",
+    "annual_fee": 50000,
+    "joining_fee": 50000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.5% + GST",
+    "point_value": "1 EDGE MILE = ₹0.75–₹1.50 (depending on transfer partner)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 EDGE MILES per ₹100 on all eligible spends · accelerated on travel and international · miles transferable to 10+ airline and hotel programmes",
+    "joining_benefits": [
+      "₹30,000 Taj voucher on joining",
+      "Unlimited lounge + golf from day one",
+      "Meet & greet active on first international trip"
+    ],
+    "renewal_benefits": [
+      "₹30,000 Taj voucher on renewal",
+      "All ultra-premium benefits continue",
+      "Unlimited lounge + golf maintained"
+    ],
+    "earns_on": [
+      "All retail (2 EDGE MILES/₹100)",
+      "Travel & international (accelerated)",
+      "Dining & lifestyle"
+    ],
+    "does_not_earn_on": [
+      "Rent (MCC 6513)",
+      "Wallet loads (MCC 6540)",
+      "Insurance",
+      "Education",
+      "Government",
+      "Fuel",
+      "Tolls (MCC 4784)",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "International",
+      "Lifestyle",
+      "Dining"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-select",
+    "name": "Axis Bank Select Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹3L Spend",
+    "categories": [
+      "Travel",
+      "Shopping",
+      "Entertainment"
+    ],
+    "key_perks": [
+      "4 complimentary domestic lounge visits/year + 2 complimentary international lounge visits/year via Priority Pass",
+      "4X EDGE REWARDS on travel portals · 2X on all other eligible spends · annual fee waived on ₹3L spend",
+      "BOGO movie tickets on BookMyShow · up to ₹300 discount · 2 times/month"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-select",
+    "network": "Visa",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": "₹3L annual spend",
+    "fee_waiver_spend": 300000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 EDGE REWARD = ₹0.30–₹0.50 (travel/lifestyle redemption)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 EDGE REWARD Points per ₹100 on all eligible spends · 4X on travel (Yatra, MakeMyTrip, Cleartrip) · milestone benefits",
+    "joining_benefits": [
+      "1,500 bonus EDGE REWARDS on joining",
+      "4 domestic + 2 international lounge from day one",
+      "4X travel rewards active immediately"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹3L spend",
+      "1,500 bonus EDGE REWARDS on renewal",
+      "All lounge and movie benefits continue"
+    ],
+    "earns_on": [
+      "Travel portals (4X)",
+      "All retail (2X)",
+      "Movies (BOGO)",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Insurance",
+      "Education",
+      "Government",
+      "Fuel",
+      "Tolls",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Shopping",
+      "Entertainment"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-privilege",
+    "name": "Axis Bank Privilege Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹2L Spend",
+    "categories": [
+      "Travel",
+      "Entertainment",
+      "Shopping"
+    ],
+    "key_perks": [
+      "2 complimentary domestic lounge visits/year · 5X EDGE REWARDS on travel and entertainment",
+      "2X on all other eligible retail spends · fee waiver on ₹2L annual spend",
+      "BOGO movie tickets on BookMyShow · ₹200 discount · 1 time/month"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-privilege",
+    "network": "Visa",
+    "annual_fee": 1500,
+    "joining_fee": 1500,
+    "fee_waiver_label": "₹2L annual spend",
+    "fee_waiver_spend": 200000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 EDGE REWARD = ₹0.30 (travel redemption)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 EDGE REWARD Points per ₹100 on all eligible spends · 5X on travel and entertainment",
+    "joining_benefits": [
+      "1,000 bonus EDGE REWARDS on joining",
+      "2 lounge visits active from card receipt",
+      "5X on travel and entertainment immediately"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹2L spend",
+      "1,000 EDGE REWARDS on renewal",
+      "All benefits continue"
+    ],
+    "earns_on": [
+      "Travel & entertainment (5X)",
+      "All retail (2X)",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Insurance",
+      "Government",
+      "Fuel",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Entertainment",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-neo",
+    "name": "Axis Bank Neo Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹250/year",
+    "categories": [
+      "Fashion",
+      "Food Delivery",
+      "Dining"
+    ],
+    "key_perks": [
+      "10X EDGE REWARDS on Myntra, Zomato, and Swiggy · great for fashion and food delivery spend",
+      "15% discount on Myntra purchases (up to ₹300/order) · Swiggy discount vouchers",
+      "1X EDGE REWARDS on all other eligible spends · affordable ₹250/year fee"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-neo",
+    "network": "Visa",
+    "annual_fee": 250,
+    "joining_fee": 250,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 EDGE REWARD = ₹0.20",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X EDGE REWARDS on Myntra, Zomato, Swiggy; 1X on all other eligible spends",
+    "joining_benefits": [
+      "₹250 Myntra voucher on activation",
+      "10X on partner merchants from first order",
+      "15% Myntra discount active immediately"
+    ],
+    "renewal_benefits": [
+      "₹250 annual fee renewed yearly",
+      "₹250 Myntra voucher on renewal",
+      "All rewards continue"
+    ],
+    "earns_on": [
+      "Myntra, Zomato, Swiggy (10X)",
+      "All retail (1X)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Government",
+      "Fuel",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Fashion",
+      "Food Delivery",
+      "Dining"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-indianoil",
+    "name": "IndianOil Axis Bank Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹50K Spend",
+    "categories": [
+      "Fuel",
+      "Grocery"
+    ],
+    "key_perks": [
+      "20 Fuel Points per ₹100 at IndianOil petrol stations · 1% fuel surcharge waiver on all IndianOil transactions",
+      "5 Fuel Points per ₹100 on grocery purchases · 1 Fuel Point on all other eligible spends",
+      "Easy ₹50,000 fee waiver threshold · Fuel Points redeemable at 7,000+ IndianOil pumps"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-indianoil",
+    "network": "Visa",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": "₹50,000 annual spend",
+    "fee_waiver_spend": 50000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 Fuel Point = ₹1 redeemable at IndianOil pumps",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "20 Fuel Points per ₹100 at IndianOil; 5 Fuel Points per ₹100 on grocery; 1 Fuel Point per ₹100 on all other spends",
+    "joining_benefits": [
+      "200 Fuel Points on first IndianOil transaction",
+      "Fuel surcharge waiver from day one",
+      "Grocery rewards active immediately"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹50,000 spend",
+      "100 Fuel Points on renewal",
+      "All fuel rewards continue"
+    ],
+    "earns_on": [
+      "IndianOil fuel (20 pts/₹100)",
+      "Grocery (5 pts/₹100)",
+      "All retail (1 pt/₹100)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Fuel",
+      "Grocery"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-airtel",
+    "name": "Airtel Axis Bank Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹500/year",
+    "categories": [
+      "Telecom",
+      "Food Delivery",
+      "Grocery"
+    ],
+    "key_perks": [
+      "25% cashback on Airtel prepaid/postpaid recharges, broadband bills, and Airtel Black · cap ₹250/month on Airtel category",
+      "10% cashback on Swiggy, Zomato, and BigBasket · cap ₹500/month combined",
+      "Free Airtel Thanks Premium subscription (worth ₹349/month) · 1% cashback on all other spends"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-airtel",
+    "network": "Visa",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback to statement · Airtel cashback credited to Airtel Payments Bank",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "25% cashback on Airtel recharges & Airtel Black; 10% on Swiggy, Zomato, BigBasket; 1% on all other spends",
+    "joining_benefits": [
+      "₹500 cashback on first spend within 30 days",
+      "25% Airtel cashback active from first recharge",
+      "Airtel Thanks Premium free for 3 months"
+    ],
+    "renewal_benefits": [
+      "₹500 annual fee renewed yearly",
+      "All cashback rates and Airtel Thanks continue",
+      "No spend-based waiver"
+    ],
+    "earns_on": [
+      "Airtel services (25%, capped)",
+      "Swiggy, Zomato, BigBasket (10%, capped)",
+      "All retail (1%)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "Fuel",
+      "Insurance",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Telecom",
+      "Food Delivery",
+      "Grocery"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-atlas",
+    "name": "Axis Bank Atlas Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹5,000/year",
+    "categories": [
+      "Travel",
+      "Dining",
+      "Online",
+      "International"
+    ],
+    "key_perks": [
+      "5 EDGE MILES per ₹100 on all travel spends including flights and hotels · 2 EDGE MILES on all other eligible spends",
+      "EDGE MILES transferable to Vistara Club, Singapore Airlines KrisFlyer, Etihad Guest, Marriott Bonvoy, Hilton Honors, and more",
+      "8 domestic + 4 international lounge visits/year · milestone: 12+6 on ₹7.5L annual spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-atlas",
+    "network": "Visa",
+    "annual_fee": 5000,
+    "joining_fee": 5000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 EDGE MILE = ₹1–₹2 (airline/hotel transfer) · transferable to 10+ partners including Vistara, Singapore Air, Marriott",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5 EDGE MILES per ₹100 on travel (flights, hotels); 2 EDGE MILES per ₹100 on all other eligible spends",
+    "joining_benefits": [
+      "5,000 bonus EDGE MILES on first spend (worth ~₹5,000 on partner transfer)",
+      "8 domestic + 4 international lounge visits from card receipt",
+      "5X travel EDGE MILES active immediately"
+    ],
+    "renewal_benefits": [
+      "2,500 EDGE MILES on renewal fee payment",
+      "Lounge benefits renewed on annual spend milestone",
+      "All transfer partners active"
+    ],
+    "earns_on": [
+      "Travel spends (5 MILES/₹100)",
+      "All retail (2 MILES/₹100)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Insurance",
+      "Education",
+      "Government",
+      "Fuel",
+      "Tolls",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Dining",
+      "Online",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "kotak-white-reserve",
+    "name": "Kotak White Reserve Credit Card",
+    "bank": "Kotak Mahindra Bank",
+    "fee_type": "paid",
+    "fee_label": "₹12,500/year · Premium",
+    "categories": [
+      "Travel",
+      "Lifestyle",
+      "Shopping",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic + international airport lounge access for primary and add-on cardholders",
+      "White Pass programme: accumulate spend to unlock travel vouchers · ₹4L = ₹10,000 domestic travel OR ₹25,000 international travel",
+      "Complimentary golf at select courses in India · 2 games/month + unlimited coaching"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/kotak-white-reserve",
+    "network": "Visa Infinite",
+    "annual_fee": 12500,
+    "joining_fee": 12500,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "2% + GST",
+    "point_value": "1 White Point = ₹0.30 · redeemable on travel, vouchers, and statement",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "3.5 White Points per ₹150 on all eligible spends; White Pass: spend ₹4L to unlock ₹10,000 domestic or ₹25,000 international travel voucher",
+    "joining_benefits": [
+      "₹10,000 Tanishq / Thomas Cook voucher on joining",
+      "Unlimited lounge active from card receipt",
+      "Golf access from day one"
+    ],
+    "renewal_benefits": [
+      "₹10,000 voucher on renewal",
+      "White Pass accumulation resets yearly",
+      "All premium benefits continue"
+    ],
+    "earns_on": [
+      "All eligible retail (3.5 pts/₹150)",
+      "Dining & travel",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Utility (MCC 4900)",
+      "Insurance (5960, 6300)",
+      "Wallet loads",
+      "Rent (6513)",
+      "Government",
+      "Fuel",
+      "Education",
+      "Gaming (5816)",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Lifestyle",
+      "Shopping",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "kotak-cashback-plus",
+    "name": "Kotak Cashback+ Credit Card",
+    "bank": "Kotak Mahindra Bank",
+    "fee_type": "paid",
+    "fee_label": "₹499/year",
+    "categories": [
+      "Grocery",
+      "Food Delivery",
+      "Entertainment",
+      "Fuel"
+    ],
+    "key_perks": [
+      "5% cashback on online grocery (BigBasket, Blinkit, Swiggy Instamart, Zepto) and food delivery (Swiggy, Zomato) · capped at 750 points/month",
+      "5% cashback on OTT and entertainment subscriptions (Netflix, Amazon Prime, Hotstar, Spotify) · shared cap",
+      "3% cashback on fuel at all petrol stations · 1% unlimited on all other spends"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/kotak-cashback-plus",
+    "network": "Visa",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback to statement · no RP conversion needed",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5% cashback on online grocery & food delivery; 5% on online entertainment subscriptions; 3% on fuel (capped); 1% on all other spends · 5% capped at 750 points/month combined",
+    "joining_benefits": [
+      "₹500 cashback on ₹5,000 spend in first 45 days",
+      "5% grocery and entertainment cashback from first order",
+      "3% fuel cashback active immediately"
+    ],
+    "renewal_benefits": [
+      "₹499 annual fee renewed yearly",
+      "All cashback rates continue",
+      "No spend-based fee waiver"
+    ],
+    "earns_on": [
+      "Online grocery & food delivery (5%, capped)",
+      "OTT subscriptions (5%, shared cap)",
+      "Fuel (3%)",
+      "All retail (1%)"
+    ],
+    "does_not_earn_on": [
+      "Utility",
+      "Insurance",
+      "Wallet loads",
+      "Rent",
+      "Government",
+      "Education",
+      "Gaming",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Grocery",
+      "Food Delivery",
+      "Entertainment",
+      "Fuel"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "kotak-league-platinum",
+    "name": "Kotak League Platinum Credit Card",
+    "bank": "Kotak Mahindra Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "All Retail",
+      "Online",
+      "Offline"
+    ],
+    "key_perks": [
+      "Lifetime Free · 4 RP per ₹150 on all eligible retail spends",
+      "Quarterly milestone bonus: earn 1,000 bonus RP on ₹50,000 quarterly spend",
+      "Fuel surcharge waiver of 1% on fuel transactions ₹500–₹3,000"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/kotak-league-platinum",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 Reward Point = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "4 Reward Points per ₹150 on all eligible retail spends; milestone: bonus RP on achieving quarterly spend targets",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "4 RP per ₹150 from first transaction",
+      "Quarterly milestone bonus target starts from card activation"
+    ],
+    "renewal_benefits": [
+      "No renewal fee (Lifetime Free)",
+      "Milestone bonuses continue every quarter"
+    ],
+    "earns_on": [
+      "All eligible retail (4 RP/₹150)",
+      "Quarterly milestone bonus"
+    ],
+    "does_not_earn_on": [
+      "Utility",
+      "Insurance",
+      "Wallet loads",
+      "Rent",
+      "Government",
+      "Education",
+      "Gaming",
+      "EMI"
+    ],
+    "reward_categories": [
+      "All Retail",
+      "Online",
+      "Offline"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "yes-private",
+    "name": "YES Private Credit Card",
+    "bank": "YES Bank",
+    "fee_type": "paid",
+    "fee_label": "None",
+    "categories": [
+      "Online",
+      "Travel",
+      "Dining",
+      "Lifestyle",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic + international airport lounge access globally for primary and add-on cardholders",
+      "6% rewards on online spends · 3% on offline · lowest forex markup at 1.5%",
+      "Dedicated Lifestyle Manager (concierge) · personal travel planning, dining reservations, event tickets"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/yes-private",
+    "network": "Visa Infinite",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25 · transferable to frequent flyer miles",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "48 RP per ₹200 on online (6%); 24 RP per ₹200 offline (3%); miles accelerated on travel · lifestyle manager included",
+    "joining_benefits": [
+      "Invite only · no public joining fee disclosed",
+      "Unlimited lounge + lifestyle manager from day one",
+      "Ultra-premium benefits activated on card receipt"
+    ],
+    "renewal_benefits": [
+      "Renewal by invitation only",
+      "All ultra-premium benefits continue on renewed relationship"
+    ],
+    "earns_on": [
+      "Online spends (6%)",
+      "Offline retail (3%)",
+      "Travel & dining (accelerated)",
+      "International"
+    ],
+    "does_not_earn_on": [
+      "Education",
+      "Fuel",
+      "Tolls (4784)",
+      "Railways (4112)",
+      "Utility",
+      "Rent",
+      "Wallet loads",
+      "Tax (9311)",
+      "Government (9399, 9402, 9405)",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Online",
+      "Travel",
+      "Dining",
+      "Lifestyle",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "yes-marquee",
+    "name": "YES MARQUEE Credit Card",
+    "bank": "YES Bank",
+    "fee_type": "paid",
+    "fee_label": "₹9,999/year · Premium",
+    "categories": [
+      "Online",
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "key_perks": [
+      "Unlimited domestic airport lounge access + 6 international lounge visits/year via Priority Pass",
+      "4.5% effective reward rate on all online spends · 2.25% on offline · lowest 1.5% forex in YES Bank portfolio",
+      "Dedicated YES MARQUEE concierge service · 24x7 travel and lifestyle support"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/yes-marquee",
+    "network": "Visa / Mastercard",
+    "annual_fee": 9999,
+    "joining_fee": 9999,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "36 RP per ₹200 on online (4.5%); 18 RP per ₹200 offline (2.25%) · cap 36,000 RP/statement cycle",
+    "joining_benefits": [
+      "₹9,999 voucher on joining (Taj / Tanishq / Cleartrip)",
+      "Unlimited domestic lounge + 6 international visits from day one",
+      "4.5% online rewards active immediately"
+    ],
+    "renewal_benefits": [
+      "₹9,999 voucher on renewal",
+      "All lounge and concierge benefits continue",
+      "All rewards maintained"
+    ],
+    "earns_on": [
+      "Online spends (4.5%)",
+      "Offline retail (2.25%)",
+      "Travel & dining (accelerated)",
+      "International"
+    ],
+    "does_not_earn_on": [
+      "Education",
+      "Fuel",
+      "Tolls",
+      "Railways",
+      "Utility",
+      "Rent",
+      "Wallet loads",
+      "Tax",
+      "Government",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Online",
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "yes-premia",
+    "name": "YES Premia Credit Card",
+    "bank": "YES Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹2L Spend",
+    "categories": [
+      "Online",
+      "Shopping",
+      "Dining"
+    ],
+    "key_perks": [
+      "1.5% rewards on online spends · 0.75% on offline · fee waiver on ₹2L annual spend",
+      "2 complimentary domestic lounge visits/year · 1 per 6 months",
+      "Cashback and milestone rewards on quarterly spend achievement"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/yes-premia",
+    "network": "Visa / Mastercard",
+    "annual_fee": 999,
+    "joining_fee": 999,
+    "fee_waiver_label": "₹2L annual spend",
+    "fee_waiver_spend": 200000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "12 RP per ₹200 on online (1.5%); 6 RP per ₹200 on offline (0.75%) · introductory rewards; milestone benefits on achieving quarterly spend",
+    "joining_benefits": [
+      "500 bonus RP on joining",
+      "2 domestic lounge visits from day one",
+      "1.5% online rewards active immediately"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹2L spend",
+      "500 RP on renewal",
+      "All benefits continue"
+    ],
+    "earns_on": [
+      "Online spends (1.5%)",
+      "Offline retail (0.75%)"
+    ],
+    "does_not_earn_on": [
+      "Education",
+      "Fuel",
+      "Tolls",
+      "Railways",
+      "Utility",
+      "Rent",
+      "Wallet loads",
+      "Tax",
+      "Government",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Online",
+      "Shopping",
+      "Dining"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "idfc-first-select",
+    "name": "IDFC FIRST Select Credit Card",
+    "bank": "IDFC FIRST Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Online",
+      "Dining",
+      "Retail",
+      "International"
+    ],
+    "key_perks": [
+      "10X RP when monthly spend crosses ₹20,000 · automatically triggered · best-in-class LTF rewards acceleration",
+      "2 complimentary domestic lounge visits/year · 1 international lounge visit/year",
+      "Lifetime Free · low 1.5% forex · 3X base rate on all eligible spends"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/vNfW2G",
+    "full_review_slug": null,
+    "_detail_url": "/cards/idfc-first-select",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X RP above ₹20,000/month spend; 3X below threshold; Govt/Education/Wallet earn 3X but do NOT count toward ₹20K threshold",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "3X RP from first transaction",
+      "Lounge access active from card receipt"
+    ],
+    "renewal_benefits": [
+      "No renewal fee (Lifetime Free)",
+      "10X/3X RP structure continues without reset"
+    ],
+    "earns_on": [
+      "All eligible retail (3X base, 10X above ₹20K)",
+      "UPI via RuPay (up to 3X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Insurance",
+      "EMI",
+      "ATM withdrawals",
+      "Education/Wallet/Govt (3X, excluded from 20K threshold)"
+    ],
+    "reward_categories": [
+      "Online",
+      "Dining",
+      "Retail",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "idfc-first-millennia",
+    "name": "IDFC FIRST Millennia Credit Card",
+    "bank": "IDFC FIRST Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Online",
+      "Entertainment",
+      "Dining",
+      "Retail"
+    ],
+    "key_perks": [
+      "10X RP when monthly spend exceeds ₹20,000 · birthday month bonus: 10X on ALL spends (no threshold)",
+      "Lifetime Free · no joining or annual fee · designed for young professionals",
+      "Movie offers: 25% discount on BookMyShow · 2 times/month (up to ₹100 per ticket)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/vNfW2G",
+    "full_review_slug": null,
+    "_detail_url": "/cards/idfc-first-millennia",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "10X RP above ₹20,000/month spend; 3X below threshold; birthday month: 10X on all spends",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "3X RP from first transaction",
+      "Movie discount active from card receipt"
+    ],
+    "renewal_benefits": [
+      "No renewal fee (Lifetime Free)",
+      "Birthday month 10X bonus resets yearly",
+      "All movie offers continue"
+    ],
+    "earns_on": [
+      "All retail (3X base, 10X above 20K)",
+      "Birthday month (10X all)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Insurance",
+      "EMI",
+      "ATM withdrawals",
+      "Government/Education/Wallet (3X, excluded from threshold)"
+    ],
+    "reward_categories": [
+      "Online",
+      "Entertainment",
+      "Dining",
+      "Retail"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "idfc-first-power-hpcl",
+    "name": "IDFC FIRST HPCL Power+ Credit Card",
+    "bank": "IDFC FIRST Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Fuel",
+      "Grocery",
+      "Utility"
+    ],
+    "key_perks": [
+      "6.5% effective savings at HPCL petrol pumps: 4% IDFC FIRST cashback + 2.5% surcharge waiver",
+      "5% cashback on grocery and utility bill payments made via HP Pay mobile app",
+      "Lifetime Free · 1.5% on all other eligible spends · easy everyday fuel card with no annual fee"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/vNfW2G",
+    "full_review_slug": null,
+    "_detail_url": "/cards/idfc-first-power-hpcl",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback · no RP conversion",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "6.5% effective savings at HPCL fuel stations (4% cashback + 2.5% fuel surcharge waiver); 5% at grocery and utility via HP Pay app; 1.5% on all other spends",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "6.5% HPCL savings from first fuel transaction",
+      "5% HP Pay cashback active immediately"
+    ],
+    "renewal_benefits": [
+      "No renewal fee (Lifetime Free)",
+      "All fuel and HP Pay cashback rates continue"
+    ],
+    "earns_on": [
+      "HPCL fuel (6.5% savings)",
+      "Grocery & utility via HP Pay (5%)",
+      "All retail (1.5%)"
+    ],
+    "does_not_earn_on": [
+      "Rent",
+      "Wallet loads",
+      "Government",
+      "Insurance",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Fuel",
+      "Grocery",
+      "Utility"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "indusind-pinnacle",
+    "name": "IndusInd Bank Pinnacle Credit Card",
+    "bank": "IndusInd Bank",
+    "fee_type": "paid",
+    "fee_label": "₹60,000/year · Ultra Premium",
+    "categories": [
+      "Travel",
+      "International",
+      "Lifestyle",
+      "Shopping"
+    ],
+    "key_perks": [
+      "Unlimited domestic + international airport lounge access worldwide (primary + add-on)",
+      "2.5 points per ₹100 on e-commerce · 1.5 points on all other spends · complimentary insurance package",
+      "Private jet booking assistance · butler service · dedicated relationship manager"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/hIQhx1",
+    "full_review_slug": null,
+    "_detail_url": "/cards/indusind-pinnacle",
+    "network": "Visa Infinite",
+    "annual_fee": 60000,
+    "joining_fee": 60000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.5% + GST",
+    "point_value": "1 point = ₹0.50 (travel) · ₹0.25 (vouchers)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2.5 points per ₹100 on e-commerce; 1.5 points per ₹100 on all other spends; degraded on Transport/Utilities/Insurance/Education",
+    "joining_benefits": [
+      "₹60,000 joining benefits (luxury brand vouchers + travel credits)",
+      "Unlimited lounge + butler service from day one",
+      "Relationship manager assigned immediately"
+    ],
+    "renewal_benefits": [
+      "₹60,000 renewal benefits",
+      "All ultra-premium benefits continue",
+      "Relationship manager maintained"
+    ],
+    "earns_on": [
+      "E-commerce (2.5 pts/₹100)",
+      "All retail (1.5 pts/₹100)",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Transport/Tolls (4111, 4121, 4131, 4112, 4784) degraded",
+      "Utilities (4900) degraded",
+      "Insurance (5960, 6300) degraded",
+      "Education degraded"
+    ],
+    "reward_categories": [
+      "Travel",
+      "International",
+      "Lifestyle",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "indusind-legend",
+    "name": "IndusInd Bank Legend Credit Card",
+    "bank": "IndusInd Bank",
+    "fee_type": "paid",
+    "fee_label": "₹9,999/year",
+    "categories": [
+      "All Retail",
+      "Dining",
+      "Shopping",
+      "Travel"
+    ],
+    "key_perks": [
+      "3 points per ₹100 on weekends (Saturday & Sunday) · 2 points per ₹100 on weekdays · great for lifestyle spending",
+      "2 complimentary domestic lounge visits/quarter (8/year) · 2 international lounge visits/year via Priority Pass",
+      "Golf green fee waiver at select Indian courses · 4 times/year"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/hIQhx1",
+    "full_review_slug": null,
+    "_detail_url": "/cards/indusind-legend",
+    "network": "Visa",
+    "annual_fee": 9999,
+    "joining_fee": 9999,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "2% + GST",
+    "point_value": "1 point = ₹0.50 (travel) · ₹0.25 (vouchers)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 points per ₹100 on weekday spends; 3 points per ₹100 on weekend spends (Saturday & Sunday); accelerated on select partners",
+    "joining_benefits": [
+      "₹9,999 joining voucher (luxury brands)",
+      "8 domestic + 2 international lounge from day one",
+      "Weekend bonus rewards active from card receipt"
+    ],
+    "renewal_benefits": [
+      "₹9,999 voucher on renewal",
+      "All lounge and golf benefits continue",
+      "Weekend 3X rewards maintained"
+    ],
+    "earns_on": [
+      "Weekend spends (3 pts/₹100)",
+      "Weekday spends (2 pts/₹100)",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Transport/Tolls degraded (0.7 pts/₹100)",
+      "Utilities degraded",
+      "Insurance degraded",
+      "Education degraded"
+    ],
+    "reward_categories": [
+      "All Retail",
+      "Dining",
+      "Shopping",
+      "Travel"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "indusind-platinum-aura-edge",
+    "name": "IndusInd Bank Platinum Aura Edge Credit Card",
+    "bank": "IndusInd Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹1.2L Spend",
+    "categories": [
+      "All Retail",
+      "Online",
+      "Offline"
+    ],
+    "key_perks": [
+      "2 points per ₹100 on all eligible retail spends · category offers via IndusInd mobile app",
+      "Monthly milestone: 500 bonus points on ₹10,000 spend in a month",
+      "Fuel surcharge waiver of 1% on fuel transactions ₹400–₹4,000"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/hIQhx1",
+    "full_review_slug": null,
+    "_detail_url": "/cards/indusind-platinum-aura-edge",
+    "network": "Visa",
+    "annual_fee": 600,
+    "joining_fee": 600,
+    "fee_waiver_label": "₹1.2L annual spend",
+    "fee_waiver_spend": 120000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 point = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2 points per ₹100 on all eligible spends; category-specific offers via app; milestone bonus",
+    "joining_benefits": [
+      "1,000 bonus points on joining",
+      "2 pts/₹100 rewards from first transaction",
+      "Monthly milestone tracking starts from card activation"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹1.2L spend",
+      "1,000 pts on renewal",
+      "Milestone bonus continues"
+    ],
+    "earns_on": [
+      "All eligible retail (2 pts/₹100)",
+      "Monthly milestone bonus"
+    ],
+    "does_not_earn_on": [
+      "Transport/Tolls degraded",
+      "Utilities degraded",
+      "Insurance degraded",
+      "Education degraded",
+      "EMI"
+    ],
+    "reward_categories": [
+      "All Retail",
+      "Online",
+      "Offline"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "rbl-icon",
+    "name": "RBL Bank Icon Credit Card",
+    "bank": "RBL Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,000/year",
+    "categories": [
+      "Dining",
+      "Shopping",
+      "Travel"
+    ],
+    "key_perks": [
+      "2 complimentary domestic lounge visits/quarter (8/year) via Mastercard lounge programme",
+      "5X Reward Points on weekend dining (Saturday & Sunday) · 2X on all other spends",
+      "Quarterly milestone: 2,500 bonus RP on ₹50,000 quarterly spend"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/rbl-icon",
+    "network": "Mastercard",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25 · redemption fee ₹99+GST per request (waived on elite variants)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2X Reward Points on all eligible spends; 5X on weekend dining; milestone bonus RP on quarterly spend target",
+    "joining_benefits": [
+      "3,000 bonus RP on joining",
+      "8 domestic lounge visits from card receipt",
+      "5X weekend dining active immediately"
+    ],
+    "renewal_benefits": [
+      "₹3,000 annual fee renewed yearly",
+      "3,000 RP on renewal",
+      "All lounge and rewards continue"
+    ],
+    "earns_on": [
+      "Weekend dining (5X)",
+      "All retail (2X)",
+      "International spends"
+    ],
+    "does_not_earn_on": [
+      "Railways (4112)",
+      "Fuel",
+      "Utilities (4900)",
+      "Wallet loads (6540)",
+      "Quasi-cash (4829)",
+      "Rent (6513)",
+      "Insurance",
+      "Education",
+      "Government",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Dining",
+      "Shopping",
+      "Travel"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "rbl-nova",
+    "name": "RBL Bank NOVA Credit Card",
+    "bank": "RBL Bank",
+    "fee_type": "paid",
+    "fee_label": "₹12,500/year",
+    "categories": [
+      "Travel",
+      "Lifestyle",
+      "Dining"
+    ],
+    "key_perks": [
+      "4 RP/₹200 base on all eligible spends (1 RP = ₹1) = 2% base reward rate · 12 RP/₹200 (6%) on flights and hotels via nova.rbl.bank.in",
+      "Quarterly milestone: ₹10,000 gift card (Taj, Luxe, MakeMyTrip, or Marriott Bonvoy) on ₹3L spend in a calendar quarter · stacks with base rewards for 5.3%+ effective valueback",
+      "12 complimentary domestic + 12 international lounge visits/year · 4 complimentary international lounge visits for guests/year (rare benefit in India)",
+      "4 complimentary golf rounds + 12 golf lessons/year · 10% off at leading fine-dining restaurants in India",
+      "Premium 18-gram metal card · first two add-on cards at zero cost"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://www.rblbank.com/credit-cards/nova",
+    "full_review_slug": null,
+    "_detail_url": "/cards/rbl-nova",
+    "network": "Visa / Mastercard",
+    "annual_fee": 12500,
+    "joining_fee": 12500,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "2% + GST",
+    "point_value": "Point Value1 RP = ₹1 · redeemable against travel and luxury vouchers",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "12 RP/₹200 on flight and hotel bookings via nova.rbl.bank.in · 4 RP/₹200 on all other eligible spends",
+    "joining_benefits": [
+      "Welcome gift card worth ₹12,500 (choice of Taj Experiences or Reliance Luxe) · fully offsets the joining fee on day one"
+    ],
+    "renewal_benefits": [
+      "₹12,500 annual fee renewed yearly · no spend-based waiver available"
+    ],
+    "earns_on": [
+      "Flight and hotel bookings via nova.rbl.bank.in (12 RP/₹200)",
+      "All other eligible spends (4 RP/₹200)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Utilities",
+      "Insurance",
+      "Quasi-cash",
+      "Rent",
+      "Wallet loads",
+      "Government",
+      "EMI",
+      "Contracted services"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Lifestyle",
+      "Dining"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "rbl-lumiere",
+    "name": "RBL Bank LUMIERE Credit Card",
+    "bank": "RBL Bank",
+    "fee_type": "paid",
+    "fee_label": "₹50,000/year",
+    "categories": [
+      "Travel",
+      "Lifestyle"
+    ],
+    "key_perks": [
+      "Zero forex markup on all international transactions · ideal for heavy international spenders and global travelers",
+      "RBL Select Circle · dedicated lifestyle management team for bespoke travel, rare dining experiences, and exclusive global event access · 24/7 availability",
+      "Bespoke reward structure tailored to invitee profile · exact multipliers not publicly disclosed",
+      "Invitation-only 18-gram metal card with personalized cardholder name · up to 3 complimentary add-on metal cards for family"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://www.rblbank.com/credit-cards/lumiere",
+    "full_review_slug": null,
+    "_detail_url": "/cards/rbl-lumiere",
+    "network": "Visa / Mastercard",
+    "annual_fee": 50000,
+    "joining_fee": 50000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "Zero",
+    "point_value": "Varies by exclusive redemption catalog",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "Invitation-only · bespoke reward structure with exclusive redemption catalog",
+    "joining_benefits": [
+      "Exclusive onboarding benefits and premium memberships tailored to invitee profile"
+    ],
+    "renewal_benefits": [
+      "₹50,000 annual fee renewed yearly · no spend-based waiver available"
+    ],
+    "earns_on": [
+      "Elite lifestyle purchases and global travel"
+    ],
+    "does_not_earn_on": [],
+    "reward_categories": [
+      "Travel",
+      "Lifestyle"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sc-smart",
+    "name": "Standard Chartered Smart Credit Card",
+    "bank": "Standard Chartered Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Online",
+      "All Retail",
+      "Shopping"
+    ],
+    "key_perks": [
+      "2% cashback on all online purchases · capped at ₹1,000/cycle",
+      "1% cashback on offline spends · capped at ₹500/cycle",
+      "Lifetime Free · no joining or annual fee · one of the best LTF cashback cards in India",
+      "Fuel surcharge waiver at select petrol stations"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sc-smart",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback to statement · no RP conversion needed",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2% cashback on online spends (capped at ₹1,000/cycle); 1% cashback on all other spends (capped at ₹500/cycle)",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "2% online cashback from first transaction",
+      "1% offline cashback active immediately"
+    ],
+    "renewal_benefits": [
+      "No renewal fee (Lifetime Free)",
+      "All cashback rates continue without reset"
+    ],
+    "earns_on": [
+      "All online spends (2%)",
+      "All offline retail (1%)",
+      "Dining, grocery, travel online (2%)"
+    ],
+    "does_not_earn_on": [
+      "Medical/hospital equipment (MCC 5047)",
+      "Nondurable goods (5199)",
+      "Misc. personal services (7299)",
+      "Quasi-cash/money transfers (6010, 6011, 6012, 6050, 6529, 6530, 6534, 6540)"
+    ],
+    "reward_categories": [
+      "Online",
+      "All Retail",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "sc-emirates",
+    "name": "Standard Chartered Emirates World Credit Card",
+    "bank": "Standard Chartered Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,000/year",
+    "categories": [
+      "Travel",
+      "International",
+      "Emirates",
+      "Shopping"
+    ],
+    "key_perks": [
+      "3 Skywards Miles per ₹100 on Emirates flights and travel bookings · 2 Miles on all other spends",
+      "2 complimentary international lounge visits/year via Priority Pass",
+      "Emirates Skywards Blue tier membership on card activation · milestone upgrades to Silver/Gold"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/sc-emirates",
+    "network": "Visa",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 Emirates Skywards Mile = ₹0.75–₹1.50 depending on redemption class",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "3 Skywards Miles per ₹100 on Emirates spends; 2 Skywards Miles per ₹100 on all other eligible spends",
+    "joining_benefits": [
+      "4,000 Skywards Miles on joining (worth ~₹3,000–₹6,000 on flights)",
+      "2 Priority Pass visits from day one",
+      "Skywards Blue status immediately"
+    ],
+    "renewal_benefits": [
+      "2,000 Skywards Miles on renewal",
+      "Priority Pass visits renewed",
+      "Skywards status maintained"
+    ],
+    "earns_on": [
+      "Emirates spends (3 Miles/₹100)",
+      "All retail (2 Miles/₹100)",
+      "International transactions"
+    ],
+    "does_not_earn_on": [
+      "Quasi-cash",
+      "Money transfers",
+      "Utilities degraded",
+      "Government degraded",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "International",
+      "Emirates",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "federal-celesta",
+    "name": "Federal Bank Celesta Credit Card",
+    "bank": "Federal Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,000/year · Premium",
+    "categories": [
+      "Travel",
+      "Lifestyle",
+      "Shopping"
+    ],
+    "key_perks": [
+      "4 complimentary domestic lounge visits/year + 2 international lounge visits/year via Priority Pass",
+      "Golf green fee waiver at select Federal Bank partner courses · 1 game/month",
+      "3 points per ₹100 on international, dining & entertainment · 1 point base rate · insurance capped at 250 pts/month"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/federal-celesta",
+    "network": "Visa",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 point = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "3 points per ₹100 on international, dining and entertainment; 1 point per ₹100 on all other eligible spends; insurance capped at 250 pts/month",
+    "joining_benefits": [
+      "₹3,000 joining voucher",
+      "4 domestic + 2 international lounge from day one",
+      "Golf access active immediately"
+    ],
+    "renewal_benefits": [
+      "₹3,000 annual fee renewed yearly",
+      "2,500 pts on renewal",
+      "All lounge and golf continue"
+    ],
+    "earns_on": [
+      "International, dining, entertainment (3 pts/₹100)",
+      "All eligible retail (1 pt/₹100)"
+    ],
+    "does_not_earn_on": [
+      "Fuel (5172, 5541, 5542, 7983)",
+      "Government (4011, 4784, 9211, 9222, 9311, 9399, 9402, 9405)",
+      "Quasi-cash (6012, 6050, 6051)"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Lifestyle",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "federal-signet",
+    "name": "Federal Bank Signet Credit Card",
+    "bank": "Federal Bank",
+    "fee_type": "paid",
+    "fee_label": "Fee Waiver at ₹50K Spend",
+    "categories": [
+      "All Retail",
+      "Online",
+      "Offline"
+    ],
+    "key_perks": [
+      "Entry-level Federal Bank card · 1 point per ₹200 on all eligible spends",
+      "2 complimentary domestic lounge visits/year",
+      "Easy ₹50,000 annual spend fee waiver · fuel surcharge waiver at select stations"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/federal-signet",
+    "network": "Visa",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": "₹50,000 annual spend",
+    "fee_waiver_spend": 50000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 point = ₹0.25",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "1 point per ₹200 on all eligible spends; fuel, government, and quasi-cash excluded",
+    "joining_benefits": [
+      "200 bonus points on joining",
+      "2 lounge visits active from card receipt",
+      "All rewards from first transaction"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹50,000 spend (easy)",
+      "200 pts on renewal",
+      "Lounge visits renewed"
+    ],
+    "earns_on": [
+      "All eligible retail (1 pt/₹200)",
+      "Dining",
+      "Online shopping"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Government services",
+      "Quasi-cash/financial institutions"
+    ],
+    "reward_categories": [
+      "All Retail",
+      "Online",
+      "Offline"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "bob-premier",
+    "name": "BoB Premier Credit Card",
+    "bank": "Bank of Baroda",
+    "fee_type": "paid",
+    "fee_label": "₹1,999/year",
+    "categories": [
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "key_perks": [
+      "10 RP per ₹100 (2.5% valueback) on travel, dining & international spends",
+      "4 complimentary domestic lounge visits/year · 1 per quarter",
+      "1% fuel surcharge waiver on ₹400–₹5,000 per transaction (capped ₹250/month)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/I7cDse",
+    "full_review_slug": null,
+    "_detail_url": "/cards/bob-premier",
+    "network": "Visa",
+    "annual_fee": 1999,
+    "joining_fee": 1999,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25 (statement credit)",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "10 RP per ₹100 on travel, dining & international; 3 RP per ₹100 on all other spends · Annexure A MCCs earn 0 RP",
+    "joining_benefits": [
+      "2,000 bonus RP on joining",
+      "4 domestic lounge visits from day one",
+      "10 RP/₹100 on key categories immediately"
+    ],
+    "renewal_benefits": [
+      "₹1,999 annual fee renewed yearly",
+      "1,000 RP on renewal",
+      "All lounge and category rewards continue"
+    ],
+    "earns_on": [
+      "Travel bookings (10 RP/₹100)",
+      "Dining (10 RP/₹100)",
+      "International spends (10 RP/₹100)",
+      "All other retail (3 RP/₹100)"
+    ],
+    "does_not_earn_on": [
+      "Annexure A MCCs (grocery, telecom, railways, utilities, govt, education, construction, agriculture, insurance) earn 0 RP",
+      "Fuel (surcharge waiver only)",
+      "Rent",
+      "Wallet loads"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Dining",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "bob-select",
+    "name": "BoB Select Credit Card",
+    "bank": "Bank of Baroda",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Online",
+      "Utility",
+      "Dining"
+    ],
+    "key_perks": [
+      "5X RP (1.25% valueback) on online, utility, and dining spends · Lifetime Free",
+      "2 complimentary domestic lounge visits/year · fuel surcharge waiver on eligible transactions",
+      "Annexure A MCCs (grocery, telecom, utilities, etc.) earn 0 RP per BOBCARD July 2024 policy"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/I7cDse",
+    "full_review_slug": null,
+    "_detail_url": "/cards/bob-select",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Point Value1 RP = ₹0.25",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "5X RP on online, utility & dining; 1X on all other spends · Annexure A MCCs earn 0 RP",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "5X rewards on key categories from first transaction",
+      "2 lounge visits active from card receipt"
+    ],
+    "renewal_benefits": [
+      "No renewal fee (Lifetime Free)",
+      "All rewards continue without reset"
+    ],
+    "earns_on": [
+      "Online, utility, dining (5X)",
+      "All other retail (1X)"
+    ],
+    "does_not_earn_on": [
+      "Annexure A MCCs earn 0 RP · Rent · Wallet loads · Fuel (surcharge waiver only)"
+    ],
+    "reward_categories": [
+      "Online",
+      "Utility",
+      "Dining"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "bob-cashback",
+    "name": "BOBCARD Cashback Credit Card",
+    "bank": "Bank of Baroda",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "Online",
+      "Shopping",
+      "Dining",
+      "Travel"
+    ],
+    "key_perks": [
+      "5% cashback on all online purchases · no merchant restrictions · no portal exclusions",
+      "1% cashback on all offline spends · Lifetime Free · cap ₹5,000/month on combined cashback",
+      "Annexure A MCCs still excluded from cashback despite being \"online\""
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/I7cDse",
+    "full_review_slug": null,
+    "_detail_url": "/cards/bob-cashback",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "Direct cashback to statement · no RP conversion",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5% cashback on online spends (no merchant restrictions); 1% on offline spends · cap ₹5,000/month total cashback",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee",
+      "5% online cashback from first transaction",
+      "1% offline cashback active immediately"
+    ],
+    "renewal_benefits": [
+      "No renewal fee (Lifetime Free)",
+      "All cashback rates continue without reset"
+    ],
+    "earns_on": [
+      "All online spends (5%, capped)",
+      "All offline retail (1%)"
+    ],
+    "does_not_earn_on": [
+      "Annexure A MCCs (grocery, telecom, utilities, govt, etc.) excluded even if online · Rent · Wallet loads · Fuel"
+    ],
+    "reward_categories": [
+      "Online",
+      "Shopping",
+      "Dining",
+      "Travel"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "amex-platinum-travel",
+    "name": "American Express Platinum Travel Credit Card",
+    "bank": "American Express",
+    "fee_type": "paid",
+    "fee_label": "₹3,500/year",
+    "categories": [
+      "Travel",
+      "Milestones",
+      "Hotels"
+    ],
+    "key_perks": [
+      "Spend ₹1.90 Lakhs in a year and get 15,000 MR Points (worth up to ₹4,500)",
+      "Spend ₹4 Lakhs in a year and get an additional 25,000 MR Points + ₹10,000 Taj Voucher",
+      "8 complimentary domestic airport lounge visits per year (capped at 2 per quarter)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/amex-platinum-travel",
+    "network": "American Express",
+    "annual_fee": 3500,
+    "joining_fee": 3500,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 MR = ~₹0.30–₹0.50 (Marriott / Taj vouchers)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "1 MR Point per ₹50 on eligible spends; massive milestone bonuses at ₹1.9L and ₹4L annual spend",
+    "joining_benefits": [
+      "10,000 MR Points as welcome gift on spending ₹15,000 in first 90 days",
+      "First-year fee often discounted or waived via referral"
+    ],
+    "renewal_benefits": [
+      "All milestone tracking resets yearly",
+      "Benefits continue upon fee payment"
+    ],
+    "earns_on": [
+      "All other retail (1 MR/₹50)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Insurance",
+      "Utilities",
+      "Rent",
+      "Wallet loads",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Milestones",
+      "Hotels"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "amex-mrcc",
+    "name": "American Express Membership Rewards Credit Card (MRCC)",
+    "bank": "American Express",
+    "fee_type": "paid",
+    "fee_label": "₹4,500/year · Fee Waiver at ₹1.5L",
+    "categories": [
+      "Shopping",
+      "Milestones",
+      "Everyday Retail"
+    ],
+    "key_perks": [
+      "1,000 Bonus MR points on completing 4 transactions of ₹1,500 or more in a calendar month",
+      "Additional 1,000 Bonus MR points on spending ₹20,000 or more in a calendar month",
+      "Redeem points via the 18-karat or 24-karat Gold Collection for maximum value (Taj, Marriott, Amazon)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/amex-mrcc",
+    "network": "American Express",
+    "annual_fee": 4500,
+    "joining_fee": 1000,
+    "fee_waiver_label": "100% waiver on ₹1.5L spend, 50% waiver on ₹90K spend",
+    "fee_waiver_spend": 150000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 MR = ~₹0.30–₹0.50 (Gold Collection / Marriott)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "1 MR Point per ₹50 on eligible spends; 1,000 bonus MR on 4 txns of ₹1,500+; 1,000 bonus MR on ₹20k monthly spend",
+    "joining_benefits": [
+      "4,000 MR Points as welcome gift on spending ₹15,000 in first 90 days",
+      "First-year fee is ₹1,000 (often waived or discounted via referral)"
+    ],
+    "renewal_benefits": [
+      "100% fee waiver on ₹1.5L annual spend · 50% fee waiver on ₹90,000 spend",
+      "All monthly milestone benefits continue"
+    ],
+    "earns_on": [
+      "All other retail (1 MR/₹50)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Insurance",
+      "Utilities",
+      "Rent",
+      "Wallet loads",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Shopping",
+      "Milestones",
+      "Everyday Retail"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "hdfc-tata-neu-plus",
+    "name": "Tata Neu Plus HDFC Bank Credit Card",
+    "bank": "HDFC Bank",
+    "fee_type": "paid",
+    "fee_label": "₹499/year · Fee Waiver at ₹1L",
+    "categories": [
+      "Tata Brands",
+      "Grocery",
+      "UPI",
+      "Shopping"
+    ],
+    "key_perks": [
+      "2% NeuCoins on Tata brands (BigBasket, 1mg, Croma, Air India Express, etc.) via Tata Neu Pass",
+      "1% NeuCoins on all other eligible spends including UPI transactions (if RuPay variant)",
+      "4 complimentary domestic lounge visits/year (1 per quarter)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/hdfc-tata-neu-plus",
+    "network": "RuPay / Visa",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver_label": "₹1L annual spend",
+    "fee_waiver_spend": 100000,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 NeuCoin = ₹1 · redeemable on Tata brand ecosystem (BigBasket, Croma, 1mg, etc.)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "2% NeuCoins on Tata brands via Tata Neu app; 1% on non-Tata brands and any UPI spends",
+    "joining_benefits": [
+      "499 NeuCoins on card activation",
+      "Complimentary NeuPass membership",
+      "2% NeuCoins active from first purchase"
+    ],
+    "renewal_benefits": [
+      "Fee waived on ₹1L annual spend",
+      "All benefits continue"
+    ],
+    "earns_on": [
+      "Tata ecosystem brands (2%)",
+      "All other retail & UPI (1%)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Government transactions",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Tata Brands",
+      "Grocery",
+      "UPI",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-myzone",
+    "name": "Axis Bank MyZone Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "LTF",
+    "fee_label": "₹500/year (Often LTF)",
+    "categories": [
+      "Dining",
+      "Entertainment",
+      "Shopping"
+    ],
+    "key_perks": [
+      "BOGO on Paytm Movies: 100% discount up to ₹200 on second ticket (once per month)",
+      "Swiggy: Flat ₹120 off on orders above ₹500 (twice per month)",
+      "SonyLIV Premium annual subscription on first spend (if not issued LTF without benefits)",
+      "4 complimentary domestic lounge visits/year (1 per quarter)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/dCy9VC",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-myzone",
+    "network": "Visa / RuPay",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 EDGE REWARD = ₹0.20",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "4 EDGE REWARD points per ₹200 on all eligible spends; BOGO on Paytm Movies; Swiggy discounts",
+    "joining_benefits": [
+      "SonyLIV Premium annual subscription (if fee paid)",
+      "Lounge access and Swiggy discount active immediately"
+    ],
+    "renewal_benefits": [
+      "SonyLIV Premium renewed on ₹1.5L annual spend",
+      "All discounts and BOGO offers continue"
+    ],
+    "earns_on": [
+      "All eligible retail (4 EDGE REWARDS/₹200)",
+      "Movies & food delivery discounts"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Rent",
+      "Wallet loads",
+      "Insurance",
+      "Government",
+      "Education",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Dining",
+      "Entertainment",
+      "Shopping"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "rbl-world-safari",
+    "name": "RBL Bank World Safari Credit Card",
+    "bank": "RBL Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,000/year",
+    "categories": [
+      "Travel",
+      "Airlines",
+      "Hotels",
+      "International"
+    ],
+    "key_perks": [
+      "5 Travel Points per ₹100 on Airlines (4511, 4582), Hotels & Motels (7011), and Transportation (4111, 4112, 4121, 4131, 4411, 4457, 4722, 4789, 7512)",
+      "8 complimentary domestic lounge visits/year (max 2/quarter · requires ₹35,000 spend in previous quarter)",
+      "Priority Pass membership with 2 complimentary international lounge visits/year",
+      "4 complimentary golf rounds/year + 1 golf lesson/month at select courses",
+      "Milestone: 10,000 bonus points at ₹2.5L · 15,000 bonus points at ₹5L · ₹10,000 voucher (Taj/Amazon/Croma/Myntra/MMT) at ₹7.5L"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fog-home.jpg&w=3840&q=75",
+    "affiliate_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/world-safari-credit-card",
+    "full_review_slug": null,
+    "_detail_url": "/cards/rbl-world-safari",
+    "network": "Mastercard World",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": "No spend-based annual fee waiver",
+    "fee_waiver_spend": null,
+    "forex_markup": "Zero",
+    "point_value": "1 Travel Point ≈ ₹0.25–₹0.50 (redeem via RBL rewards portal)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5 Travel Points per ₹100 on Airlines, Hotels & Motels, Transportation · 1 Travel Point per ₹100 on all other spends",
+    "joining_benefits": [
+      "MakeMyTrip voucher worth ₹3,000 on card activation (offsets joining fee)"
+    ],
+    "renewal_benefits": [
+      "Annual fee renewed at ₹3,000 · milestone vouchers and lounge access continue"
+    ],
+    "earns_on": [
+      "5 Travel Points per ₹100 on Airlines (MCC 4511, 4582)",
+      "5 Travel Points per ₹100 on Hotels & Motels (MCC 7011)",
+      "5 Travel Points per ₹100 on Transportation (MCC 4111, 4112, 4121, 4131, 4411, 4457, 4722, 4789, 7512)",
+      "1 Travel Point per ₹100 on all other eligible spends"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Wallet loads",
+      "Insurance",
+      "Rent",
+      "Government transactions",
+      "Cash advances",
+      "EMI"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Airlines",
+      "Hotels",
+      "International"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "axis-horizon",
+    "name": "Axis Bank Horizon Credit Card",
+    "bank": "Axis Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,000 + GST · No fee waiver",
+    "categories": [
+      "Travel",
+      "Airlines"
+    ],
+    "key_perks": [
+      "32 domestic (8/quarter, Visa) + 8 international (2/quarter) lounge visits/year · no spend threshold",
+      "5 EDGE Miles/₹100 on Axis Travel EDGE portal and direct airline bookings",
+      "Transfer to airline miles at 2:1 ratio · Air India, Singapore KrisFlyer, Etihad and select partners (Accor, Marriott Bonvoy, Qatar removed Apr 2026)",
+      "5,000 welcome EDGE Miles on first ₹1,000 transaction within 30 days",
+      "1,500 renewal EDGE Miles on card anniversary",
+      "1% fuel surcharge waiver (₹400–₹5,000/txn, cap ₹250/month)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Faxis-horizon.png&w=3840&q=75",
+    "affiliate_url": "https://bitlii.cc/en/gHUVR9",
+    "full_review_slug": null,
+    "_detail_url": "/cards/axis-horizon",
+    "network": "Visa",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "3.5% + GST",
+    "point_value": "1 EDGE Mile ≈ ₹0.20 on Travel EDGE portal · 2:1 transfer to airline miles (Air India, KrisFlyer, Etihad and select partners · post Apr 2026 devaluation)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "5 EDGE Miles/₹100 on Axis Travel EDGE portal + direct airline bookings · 2 EDGE Miles/₹100 on all other spends",
+    "joining_benefits": [
+      "5,000 EDGE Miles on first ₹1,000 transaction within 30 days of card issuance"
+    ],
+    "renewal_benefits": [
+      "1,500 EDGE Miles on card anniversary",
+      "32 domestic + 8 international lounge visits continue · no spend condition"
+    ],
+    "earns_on": [
+      "All eligible retail, travel, dining, and online spends · Axis Travel EDGE portal (5X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel (surcharge waiver only)",
+      "Wallet loads",
+      "EMI transactions",
+      "Cash advances",
+      "Government payments"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Airlines"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "kotak-air-plus",
+    "name": "Kotak Air+ Credit Card",
+    "bank": "Kotak Mahindra Bank",
+    "fee_type": "paid",
+    "fee_label": "₹3,000 + GST",
+    "categories": [
+      "Travel",
+      "Hotels"
+    ],
+    "key_perks": [
+      "4 complimentary domestic lounge visits/year (2/quarter) · no spend threshold",
+      "2 complimentary international lounge visits/year via Priority Pass · no spend threshold",
+      "5 Air Miles/₹100 on Kotak Unbox flight and hotel bookings · cap 15,000 miles/statement cycle",
+      "2 Air Miles/₹100 on all other eligible spends",
+      "2,500 bonus Air Miles on joining and annual renewal fee payment",
+      "Low 2% forex markup"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Fkotak-air-plus.png&w=3840&q=75",
+    "affiliate_url": "#",
+    "full_review_slug": null,
+    "_detail_url": "/cards/kotak-air-plus",
+    "network": "Visa",
+    "annual_fee": 3000,
+    "joining_fee": 3000,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "2% + GST",
+    "point_value": "1 Kotak Air Mile ≈ ₹1 redeemed on flights/hotels via Kotak Unbox",
+    "rewards_cycle": "Statement cycle",
+    "short_description": "5 Air Miles/₹100 on Kotak Unbox flight + hotel bookings (cap 15,000 miles/cycle) · 2 Air Miles/₹100 on all other spends",
+    "joining_benefits": [
+      "2,500 bonus Air Miles on joining fee payment"
+    ],
+    "renewal_benefits": [
+      "2,500 bonus Air Miles on renewal fee payment",
+      "All lounge and rewards benefits continue"
+    ],
+    "earns_on": [
+      "All eligible retail, travel, dining, and online spends · Kotak Unbox portal (5X)"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Cash advances",
+      "Wallet loads",
+      "Government payments",
+      "Insurance",
+      "EMI transactions"
+    ],
+    "reward_categories": [
+      "Travel",
+      "Hotels"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  },
+  {
+    "slug": "indusind-tiger",
+    "name": "IndusInd Bank Tiger Credit Card",
+    "bank": "IndusInd Bank",
+    "fee_type": "LTF",
+    "fee_label": "Lifetime Free",
+    "categories": [
+      "All eligible spends"
+    ],
+    "key_perks": [
+      "8 complimentary domestic lounge visits/year (2/quarter) · no spend threshold · nominal ₹2 Visa swipe fee per visit",
+      "2 complimentary international lounge visits/year via Priority Pass · no spend threshold",
+      "1:1 IndusMoments to Air India Maharaja Club points transfer · up to 25,000 pts/month (live from Jun 1, 2026)",
+      "Low 1.5% forex markup (vs 3.5% industry standard)",
+      "Tiered rewards: 1.2% effective at base · scales to 7.2% at ₹5L+ annual spend",
+      "Co-branded with Tiger Fintech (Bajaj Capital Group)"
+    ],
+    "thumbnail_url": "/_next/image?url=%2Findusind-tiger.png&w=3840&q=75",
+    "affiliate_url": "https://track.techtrack.in/click?campaign_id=129&pub_id=1304",
+    "full_review_slug": null,
+    "_detail_url": "/cards/indusind-tiger",
+    "network": "Visa",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver_label": null,
+    "fee_waiver_spend": null,
+    "forex_markup": "1.5% + GST",
+    "point_value": "1 IndusMoments RP ≈ ₹1 via IndusMoments portal · 1:1 transfer to Air India Maharaja Club (cap 25,000 pts/month · live Jun 2026)",
+    "rewards_cycle": "Monthly (resets every month)",
+    "short_description": "1–6 RP/₹100 tiered by annual spend · 1 RP base (up to ₹1L/year) scaling to 6 RP above ₹5L/year · 1:1 transfer to Air India Maharaja Club",
+    "joining_benefits": [
+      "Lifetime Free · no joining fee or annual fee ever",
+      "Immediate lounge access from day one · no spend threshold"
+    ],
+    "renewal_benefits": [
+      "No renewal fee ever",
+      "All lounge, rewards, and forex benefits continue automatically"
+    ],
+    "earns_on": [
+      "All eligible retail, travel, dining, online, and international spends"
+    ],
+    "does_not_earn_on": [
+      "Fuel",
+      "Cash advances",
+      "Wallet loads",
+      "EMI transactions"
+    ],
+    "reward_categories": [
+      "All eligible spends"
+    ],
+    "is_featured": false,
+    "is_published": true,
+    "_merchants": []
+  }
+]

@@ -1,5 +1,6 @@
 import { supabase } from '../lib/supabase';
 import Tesseract from 'tesseract.js';
+import { fetchWithTimeout, TimeoutError } from './fetchWithTimeout';
 
 export type ExtractedTransaction = {
   date: string;
@@ -23,6 +24,44 @@ Each object must match this schema:
 }
 
 If no transactions are found, return [].`;
+
+async function invokeWithTimeoutAndErrorHandling(functionName: string, body: any): Promise<any> {
+  try {
+    const { data: { session } } = await supabase.auth.getSession();
+    const token = session?.access_token || '';
+    
+    // We get the SUPABASE URL from environment, same as client does
+    const supabaseUrl = import.meta.env.VITE_SUPABASE_URL.replace(/\/$/, '');
+    
+    const res = await fetchWithTimeout(`${supabaseUrl}/functions/v1/${functionName}`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
+    }, 30_000);
+
+    if (res.status === 429) {
+      return { error: 'Daily AI limit reached. Resets at midnight.' };
+    }
+    if (res.status >= 500) {
+      return { error: 'AI service temporarily unavailable.' };
+    }
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ error: res.statusText }));
+      return { error: err.error || res.statusText };
+    }
+
+    const data = await res.json();
+    return { data };
+  } catch (e) {
+    if (e instanceof TimeoutError) {
+      return { error: 'Request timed out. Please try again.' };
+    }
+    return { error: (e as Error).message || 'Unknown error occurred' };
+  }
+}
 
 export async function callVisionModel(
   imagesBase64: string[],
@@ -48,16 +87,10 @@ async function callGeminiVision(
   const categoryNames = categories.map(c => c.name).join(', ');
   const prompt = `${SYSTEM_PROMPT}\n\nValid categories: ${categoryNames}`;
 
-  const { data, error } = await supabase.functions.invoke('gemini-vision', {
-    body: { imagesBase64, prompt }
-  });
+  const { data, error } = await invokeWithTimeoutAndErrorHandling('gemini-vision', { imagesBase64, prompt });
 
   if (error) {
-    throw new Error(`Edge function error: ${error.message}`);
-  }
-
-  if (data?.error) {
-    throw new Error(`Edge function error: ${data.error}`);
+    throw new Error(`Edge function error: ${error}`);
   }
 
   try {
@@ -89,11 +122,11 @@ async function callTesseractFallback(imagesBase64: string[]): Promise<ExtractedT
 }
 
 export async function suggestCategory(description: string, categories: { id: string; name: string }[]): Promise<string | null> {
-  const { data, error } = await supabase.functions.invoke('ai-advisor', {
-    body: { action: 'categorize', prompt: description, context: categories }
+  const { data, error } = await invokeWithTimeoutAndErrorHandling('ai-advisor', {
+    action: 'categorize', prompt: description, context: categories
   });
-  if (error || data?.error) {
-    console.error('AI Categorizer Error:', error || data?.error);
+  if (error) {
+    console.error('AI Categorizer Error:', error);
     return null;
   }
   try {
@@ -106,11 +139,11 @@ export async function suggestCategory(description: string, categories: { id: str
 }
 
 export async function askFinancialAdvisor(question: string, contextData: any): Promise<string> {
-  const { data, error } = await supabase.functions.invoke('ai-advisor', {
-    body: { action: 'chat', prompt: question, context: contextData }
+  const { data, error } = await invokeWithTimeoutAndErrorHandling('ai-advisor', {
+    action: 'chat', prompt: question, context: contextData
   });
-  if (error || data?.error) {
-    throw new Error(error?.message || data?.error || 'Failed to get response from advisor');
+  if (error) {
+    throw new Error(error);
   }
   return data.text;
 }
@@ -118,11 +151,11 @@ export async function askFinancialAdvisor(question: string, contextData: any): P
 export async function detectAnomalies(categoryName: string, avgSpend: number, currentSpend: number): Promise<string | null> {
   if (currentSpend <= avgSpend * 1.5 || avgSpend < 50) return null; // Only flag major anomalies
   
-  const { data, error } = await supabase.functions.invoke('ai-advisor', {
-    body: { action: 'anomaly', prompt: 'Explain this anomaly.', context: { categoryName, avgSpend, currentSpend } }
+  const { data, error } = await invokeWithTimeoutAndErrorHandling('ai-advisor', {
+    action: 'anomaly', prompt: 'Explain this anomaly.', context: { categoryName, avgSpend, currentSpend }
   });
   
-  if (error || data?.error) return null;
+  if (error) return null;
   return data.text;
 }
 

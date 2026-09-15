@@ -1,0 +1,23 @@
+[
+  {
+    "name": "InterMiles",
+    "airline": "InterMiles",
+    "description": "One of the most versatile Indian miles currencies ·redeem for flights on Etihad and 50+ partner airlines, hotel stays, and shopping vouchers. ICICI Bank cards have strong earn partnerships with InterMiles. Points can be earned on everyday spends via linked cards, not just flights.",
+    "benefits": [],
+    "program_url": null
+  },
+  {
+    "name": "Air India Flying Returns",
+    "airline": "Air",
+    "description": "Earn Flying Returns miles on every Air India flight and via partner banks including SBI and Bank of Baroda. Miles redeem for flight upgrades and free tickets on Air India routes. BoB Eterna earns online spend rewards that can be used toward Air India bookings made through the website.",
+    "benefits": [],
+    "program_url": null
+  },
+  {
+    "name": "IndiGo 6E Rewards",
+    "airline": "IndiGo",
+    "description": "IndiGo's loyalty programme lets you earn 6E points on every booking redeemable against future fares. Best for frequent domestic travellers on a budget. Use a card with strong online spend rewards (like BoB Eterna at 3.75%) when booking on the IndiGo website to stack card rewards on top of 6E points.",
+    "benefits": [],
+    "program_url": null
+  }
+]

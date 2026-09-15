@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Wellbi",
+    "category": "Fitness & Wellness",
+    "description": "Bamboo activewear that actually holds up at the gym · smooth fabric, odor-free tech, and available through Cred Coin Rush. Use code CAPTAINTORCH for 20% off.",
+    "benefits": [],
+    "brand_url": "https://captaintorch.in/guide/lifestyle/wellbi"
+  },
+  {
+    "name": "FitPass Pro",
+    "category": "Fitness & Wellness",
+    "description": "FitPass Pro gives you access to 5,000+ gyms and fitness studios across India under a single membership. BoB Eterna includes a FitPass Pro membership as a welcome benefit on joining · one of the best free perks on an entry-level card. Activate within 30 days of card issuance.",
+    "benefits": [],
+    "brand_url": null
+  },
+  {
+    "name": "BOGO Movie Tickets",
+    "category": "Entertainment",
+    "description": "Buy One Get One free movie tickets are available monthly on several cards. BoB Eterna offers ₹250 BOGO via the District app every month · that is ₹3,000 saved per year if you use it consistently. BookMyShow also runs BOGO offers with HDFC, Axis, and SBI cards.",
+    "benefits": [],
+    "brand_url": null
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "title": "BOB Etihad Guest Premium: 15,000 Bonus Miles",
+    "description": "Get up to 15,000 Etihad Guest Miles as a welcome bonus: 10,000 Miles on ₹25,000 spend within 60 days, plus 5,000 bonus Miles on ₹50,000 cumulative spend within 60 days of card issuance.",
+    "merchant": null,
+    "discount_value": null,
+    "expiry_date": "2026-08-30",
+    "no_end_date": false,
+    "is_featured": false,
+    "affiliate_url": "https://captaintorch.in/go/bob-etihad",
+    "_card_name": "BOB Etihad Guest Premium Credit Card"
+  },
+  {
+    "title": "Accor Plus",
+    "description": "2000 Bonus points for New membership purchase on website, 2000 Bonus points for renewal through customer care or email communication.",
+    "merchant": "Accor Plus",
+    "discount_value": null,
+    "expiry_date": null,
+    "no_end_date": true,
+    "is_featured": false,
+    "affiliate_url": null,
+    "_card_name": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "mcc": "5411",
+    "description": "Grocery Stores and Supermarkets",
+    "category": "grocery",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "5812",
+    "description": "Eating Places and Restaurants",
+    "category": "dining",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "5814",
+    "description": "Fast Food Restaurants",
+    "category": "dining",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "5691",
+    "description": "Men's and Women's Clothing Stores",
+    "category": "apparel",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "5541",
+    "description": "Service Stations / Fuel",
+    "category": "fuel",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "4900",
+    "description": "Utilities - Electric, Gas, Water, Sanitary",
+    "category": "utility",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "4814",
+    "description": "Telecommunication Services",
+    "category": "utility",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "7011",
+    "description": "Hotels, Motels, Resorts",
+    "category": "hotels",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "4511",
+    "description": "Airlines and Air Carriers",
+    "category": "travel",
+    "is_excluded_by_default": false
+  },
+  {
+    "mcc": "7832",
+    "description": "Motion Picture Theatres",
+    "category": "entertainment",
+    "is_excluded_by_default": false
+  }
+]

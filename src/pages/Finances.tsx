@@ -122,8 +122,9 @@ style.innerHTML = `
 `;
 document.head.appendChild(style);
 
-export const OverviewSection = ({ transactions }: { transactions: Transaction[] }) => {
-  const { budgets } = useBudget();
+export const OverviewSection = ({ transactions, budgets: inputBudgets }: { transactions: Transaction[], budgets?: any[] }) => {
+  const { budgets: contextBudgets } = useBudget();
+  const budgets = inputBudgets ?? contextBudgets;
 
   // Calculate totals
   const totalBudget = budgets.reduce((sum, b) => sum + (b.total_amount || 0), 0);
@@ -133,7 +134,7 @@ export const OverviewSection = ({ transactions }: { transactions: Transaction[] 
   // Status counts
   let onTrack = 0, approaching = 0, overBudget = 0;
   budgets.forEach(b => {
-    const spent = transactions.filter(t => t.budget_id === b.id && t.type === 'expense').reduce((sum, t) => sum + (t.amount || 0), 0);
+    const spent = transactions.filter(t => t.category_id === b.category_id && t.type === 'expense').reduce((sum, t) => sum + (t.amount || 0), 0);
     if (spent < b.total_amount * 0.8) onTrack++;
     else if (spent < b.total_amount) approaching++;
     else overBudget++;
@@ -218,18 +219,20 @@ export const OverviewSection = ({ transactions }: { transactions: Transaction[] 
   );
 };
 
+import { useBudgets, useCreateBudget, useUpdateBudget, useDeleteBudget } from '../hooks/useBudgets';
+import { useTransactions, useCreateTransaction, useUpdateTransaction, useDeleteTransaction } from '../hooks/useTransactions';
+import { usePagination } from '../hooks/usePagination';
+
 const inputBase = "w-full border border-gray-200 dark:border-gray-700 px-4 py-3 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-blue-200 dark:focus:ring-blue-800 transition-all placeholder-gray-400 dark:placeholder-gray-500 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100";
 const labelBase = "block mb-1 font-semibold text-gray-700 dark:text-gray-300";
 const buttonBase = "px-6 py-2 rounded-xl font-semibold transition-all focus:outline-none focus:ring-2 focus:ring-blue-200 dark:focus:ring-blue-800";
 
 const closeButton = "text-gray-400 dark:text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 text-2xl absolute top-4 right-6 cursor-pointer transition-colors";
 
-function filterTransactionsByYear(transactions: Transaction[], selectedYear: number) {
-  return transactions.filter((transaction) => new Date(transaction.date).getFullYear() === selectedYear);
-}
-
-const BudgetFormModal = ({ open, onClose, budget }: { open: boolean; onClose: () => void; budget?: any }) => {
-  const { addBudget, editBudget, loading, error, categories } = useBudget();
+const BudgetFormModal = ({ open, onClose, budget, selectedMonth }: { open: boolean; onClose: () => void; budget?: any; selectedMonth: string }) => {
+  const { categories } = useBudget();
+  const { mutateAsync: addBudget } = useCreateBudget();
+  const { mutateAsync: editBudget } = useUpdateBudget();
   const allCategories = categories.length > 0
     ? categories.map(c => ({ value: c.id, label: c.name }))
     : [];
@@ -262,16 +265,27 @@ const BudgetFormModal = ({ open, onClose, budget }: { open: boolean; onClose: ()
       period_type: periodType,
       start_date: startDate,
       category_id: categoryId,
+      month: selectedMonth, // Tie budget to selected month
     };
     if (budget && budget.end_date) {
       data.end_date = budget.end_date;
-    }
-    if (budget) {
-      await editBudget(budget.id, data);
     } else {
-      await addBudget(data);
+      // Default end date to last day of the month
+      const [year, monthStr] = selectedMonth.split('-');
+      const lastDay = new Date(Number(year), Number(monthStr), 0).getDate();
+      data.end_date = `${selectedMonth}-${lastDay}`;
     }
-    if (!error) onClose();
+    
+    try {
+      if (budget) {
+        await editBudget({ id: budget.id, ...data });
+      } else {
+        await addBudget(data);
+      }
+      onClose();
+    } catch (err: any) {
+      setFormError(err.message || 'Failed to save budget');
+    }
   };
 
   return (
@@ -338,15 +352,15 @@ const BudgetFormModal = ({ open, onClose, budget }: { open: boolean; onClose: ()
         {error && <div className="text-red-500 dark:text-red-300 text-sm font-medium">{error}</div>}
         <div className="flex justify-end space-x-3 mt-6">
           <button type="button" className={buttonBase + " bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-neutral-800 dark:text-gray-200 dark:hover:bg-neutral-700 transition-colors"} onClick={onClose}>Cancel</button>
-          <button type="submit" className={buttonBase + " bg-blue-600 text-white dark:text-gray-100 hover:bg-blue-700 shadow-md"} disabled={loading || allCategories.length === 0}>{budget ? 'Update Budget' : 'Create Budget'}</button>
+          <button type="submit" className={buttonBase + " bg-blue-600 text-white dark:text-gray-100 hover:bg-blue-700 shadow-md"} disabled={allCategories.length === 0}>{budget ? 'Update Budget' : 'Create Budget'}</button>
         </div>
       </form>
     </div>
   );
 };
 
-const BudgetCards = ({ transactions }: { transactions: Transaction[] }) => {
-  const { budgets, removeBudget } = useBudget();
+const BudgetCards = ({ transactions, budgets, selectedMonth }: { transactions: Transaction[], budgets: any[], selectedMonth: string }) => {
+  const { mutate: removeBudget } = useDeleteBudget();
   const [showForm, setShowForm] = useState(false);
   const [editBudget, setEditBudget] = useState<any | null>(null);
 
@@ -401,14 +415,16 @@ const BudgetCards = ({ transactions }: { transactions: Transaction[] }) => {
           );
         })}
       </div>
-      <BudgetFormModal open={showForm} onClose={() => { setShowForm(false); setEditBudget(null); }} budget={editBudget} />
+      <BudgetFormModal open={showForm} onClose={() => { setShowForm(false); setEditBudget(null); }} budget={editBudget} selectedMonth={selectedMonth} />
       {budgets.length === 0 && <div className="text-gray-500 dark:text-gray-300 mt-8 text-center">No budgets found. Click "Create Budget" to add one.</div>}
     </div>
   );
 };
 
 const TransactionFormModal = ({ open, onClose, transaction, prefillPhoto }: { open: boolean; onClose: () => void; transaction?: any; prefillPhoto?: File | null }) => {
-  const { addTransaction, editTransaction, loading, error, categories } = useBudget();
+  const { categories } = useBudget();
+  const { mutateAsync: addTransaction } = useCreateTransaction();
+  const { mutateAsync: editTransaction } = useUpdateTransaction();
   const { user } = useAuth();
   const allCategories = categories.length > 0
     ? categories.map(c => ({ value: c.id, label: c.name }))
@@ -487,12 +503,16 @@ const TransactionFormModal = ({ open, onClose, transaction, prefillPhoto }: { op
       payment_method: paymentMethod,
       card_id: paymentMethod === 'credit_card' ? cardId : null,
     };
-    if (transaction) {
-      await editTransaction(transaction.id, data);
-    } else {
-      await addTransaction(data);
+    try {
+      if (transaction) {
+        await editTransaction({ id: transaction.id, ...data });
+      } else {
+        await addTransaction(data);
+      }
+      onClose();
+    } catch (err: any) {
+      setFormError(err.message || 'Failed to save transaction');
     }
-    if (!error) onClose();
   };
 
   return (
@@ -620,10 +640,9 @@ const TransactionFormModal = ({ open, onClose, transaction, prefillPhoto }: { op
           </div>
         </div>
         {formError && <div className="text-red-500 text-sm font-medium mt-2">{formError}</div>}
-        {error && <div className="text-red-500 dark:text-red-300 text-sm font-medium mt-2">{error}</div>}
         <div className="flex justify-end space-x-3 mt-6">
           <button type="button" className={buttonBase + " bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-neutral-800 dark:text-gray-200 dark:hover:bg-neutral-700 transition-colors"} onClick={onClose}>Cancel</button>
-          <button type="submit" className={buttonBase + " bg-blue-600 text-white dark:text-gray-100 hover:bg-blue-700 shadow-md"} disabled={loading || allCategories.length === 0}>{transaction ? 'Update Transaction' : 'Add Transaction'}</button>
+          <button type="submit" className={buttonBase + " bg-blue-600 text-white dark:text-gray-100 hover:bg-blue-700 shadow-md"} disabled={allCategories.length === 0}>{transaction ? 'Update Transaction' : 'Add Transaction'}</button>
         </div>
       </form>
     </div>
@@ -1004,7 +1023,10 @@ const ImportModal: React.FC<{
 };
 
 const TransactionHistory = ({ transactions }: { transactions: Transaction[] }) => {
-  const { categories, removeTransaction, addTransaction } = useBudget();
+  const { categories } = useBudget();
+  const { mutateAsync: addTransaction } = useCreateTransaction();
+  const { mutateAsync: removeTransaction } = useDeleteTransaction();
+  const { page, from, to, nextPage, prevPage } = usePagination();
   const [showForm, setShowForm] = useState(false);
   const [editTransaction, setEditTransaction] = useState<any | null>(null);
   const [showCsv, setShowCsv] = useState(false);
@@ -1039,13 +1061,17 @@ const TransactionHistory = ({ transactions }: { transactions: Transaction[] }) =
     if (!window.confirm(`Delete ${selected.length} transactions? This cannot be undone.`)) return;
     setBulkDeleting(true);
     const failed: string[] = [];
-    for (const id of selected) {
-      try {
-        await removeTransaction(id);
-      } catch {
-        failed.push(id);
-      }
-    }
+    
+    await Promise.all(
+      selected.map(async (id) => {
+        try {
+          await removeTransaction(id);
+        } catch {
+          failed.push(id);
+        }
+      })
+    );
+
     setBulkDeleting(false);
     setSelected([]);
     setSelectAll(false);
@@ -1065,18 +1091,21 @@ const TransactionHistory = ({ transactions }: { transactions: Transaction[] }) =
     );
   });
 
+  const paginatedTransactions = filteredTransactions.slice(from, to + 1);
+
   const handleCsvImport = async (rows: any[]) => {
-    // For each row, addTransaction (could be optimized for batch insert)
-    for (const row of rows) {
-      await addTransaction({
-        amount: row.amount,
-        date: row.date,
-        category_id: row.category_id,
-        description: row.description,
-        payment_method: row.payment_method,
-        type: row.type || 'expense',
-      });
-    }
+    await Promise.all(
+      rows.map(row =>
+        addTransaction({
+          amount: row.amount,
+          date: row.date,
+          category_id: row.category_id,
+          description: row.description,
+          payment_method: row.payment_method,
+          type: row.type || 'expense',
+        })
+      )
+    );
   };
 
   // Handle outside click to close dropdown
@@ -1099,13 +1128,13 @@ const TransactionHistory = ({ transactions }: { transactions: Transaction[] }) =
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-4">
-        <div className="flex gap-2">
-          <button className="bg-blue-600 text-white px-4 py-2 rounded font-semibold" onClick={() => { setEditTransaction(null); setShowForm(true); }}>+ Add Transaction</button>
-          <button className="bg-green-600 text-white px-4 py-2 rounded font-semibold" onClick={() => setShowCsv(true)}>Import</button>
-          <button className="bg-purple-600 text-white px-4 py-2 rounded font-semibold" onClick={() => setShowPdf(true)}>Document Import</button>
+      <div className="flex flex-col md:flex-row justify-between items-stretch md:items-center gap-4 mb-4">
+        <div className="flex flex-wrap gap-2">
+          <button className="bg-blue-600 text-white px-4 py-2 rounded font-semibold flex-1 sm:flex-initial" onClick={() => { setEditTransaction(null); setShowForm(true); }}>+ Add Transaction</button>
+          <button className="bg-green-600 text-white px-4 py-2 rounded font-semibold flex-1 sm:flex-initial" onClick={() => setShowCsv(true)}>Import</button>
+          <button className="bg-purple-600 text-white px-4 py-2 rounded font-semibold flex-1 sm:flex-initial" onClick={() => setShowPdf(true)}>Document Import</button>
         </div>
-        <div className="flex flex-col ml-4 w-64">
+        <div className="flex flex-col w-full md:w-64">
           <label htmlFor="search-transactions" className="mb-1 text-sm font-medium text-gray-700 dark:text-gray-300">Search Transactions</label>
           <div className="relative">
             <input
@@ -1169,7 +1198,7 @@ const TransactionHistory = ({ transactions }: { transactions: Transaction[] }) =
             </div>
           )}
           {filteredTransactions.length === 0 && <div className="text-gray-500 dark:text-gray-300 py-8 text-center">No transactions found. Click "Add Transaction" to add one.</div>}
-          {filteredTransactions.map(tx => (
+          {paginatedTransactions.map(tx => (
             <div
               key={tx.id}
               className={`flex flex-col md:flex-row md:items-center justify-between gap-2 md:gap-0 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl px-6 py-4 mb-4 shadow-sm transition-colors ${selected.includes(tx.id) ? 'ring-2 ring-red-400 dark:ring-red-600' : ''}`}
@@ -1235,6 +1264,28 @@ const TransactionHistory = ({ transactions }: { transactions: Transaction[] }) =
             </div>
           ))}
         </div>
+        {/* Pagination Controls */}
+        {filteredTransactions.length > 20 && (
+          <div className="flex justify-between items-center mt-6">
+            <button
+              disabled={page === 0}
+              onClick={prevPage}
+              className="px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded disabled:opacity-50"
+            >
+              Previous
+            </button>
+            <span className="text-gray-600 dark:text-gray-400 text-sm">
+              Page {page + 1} of {Math.ceil(filteredTransactions.length / 20)}
+            </span>
+            <button
+              disabled={(page + 1) * 20 >= filteredTransactions.length}
+              onClick={nextPage}
+              className="px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded disabled:opacity-50"
+            >
+              Next
+            </button>
+          </div>
+        )}
       </div>
       <TransactionFormModal
         open={showForm}
@@ -1253,28 +1304,29 @@ const tabs = [
 
 const Finances: React.FC = () => {
   const [activeTab, setActiveTab] = useState('budgets');
-  const { transactions } = useBudget();
-  const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
-  const visibleTransactions = filterTransactionsByYear(transactions, selectedYear);
+  
+  const currentMonth = new Date().toISOString().slice(0, 7); // YYYY-MM
+  const [selectedMonth, setSelectedMonth] = useState(currentMonth);
+  const selectedYear = Number(selectedMonth.split('-')[0]);
+
+  const { data: monthlyTransactions = [] } = useTransactions(selectedYear, selectedMonth);
+  const { data: budgets = [] } = useBudgets(selectedYear, selectedMonth);
 
   return (
-    <div className="max-w-6xl mx-auto mt-8">
+    <div className="max-w-6xl mx-auto mt-4 px-4 sm:px-0">
       <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Finances</h1>
-        <div className="flex items-center gap-2">
-          <label htmlFor="finance-year" className="text-sm font-medium text-gray-600 dark:text-gray-300">
-            Year
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <label htmlFor="finance-month" className="text-sm font-medium text-gray-600 dark:text-gray-300 shrink-0">
+            Month
           </label>
-          <select
-            id="finance-year"
-            value={selectedYear}
-            onChange={(e) => setSelectedYear(Number(e.target.value))}
-            className="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
-          >
-            {getRecentYears(10).map((year) => (
-              <option key={year} value={year}>{year}</option>
-            ))}
-          </select>
+          <input
+            type="month"
+            id="finance-month"
+            value={selectedMonth}
+            onChange={(e) => setSelectedMonth(e.target.value)}
+            className="w-full sm:w-auto min-w-[160px] rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm font-medium text-gray-900 dark:text-gray-100 shadow-sm transition-all hover:bg-gray-50 dark:hover:bg-gray-700 focus:border-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-500/20 cursor-pointer"
+          />
         </div>
       </div>
       <div className="flex space-x-4 border-b mb-6">
@@ -1288,9 +1340,9 @@ const Finances: React.FC = () => {
           </button>
         ))}
       </div>
-      {activeTab === 'budgets' && <BudgetCards transactions={visibleTransactions} />}
-      {activeTab === 'transactions' && <TransactionHistory transactions={visibleTransactions} />}
-      {activeTab === 'insights' && <InsightsSection transactions={visibleTransactions} />}
+      {activeTab === 'budgets' && <BudgetCards transactions={monthlyTransactions} budgets={budgets} selectedMonth={selectedMonth} />}
+      {activeTab === 'transactions' && <TransactionHistory transactions={monthlyTransactions} />}
+      {activeTab === 'insights' && <InsightsSection transactions={monthlyTransactions} />}
     </div>
   );
 };

@@ -17,6 +17,7 @@ export interface Budget {
   period_type: 'monthly' | 'weekly' | 'custom';
   start_date: string;
   end_date?: string | null;
+  month?: string | null;
 }
 
 export interface Category {
@@ -91,8 +92,17 @@ export const BudgetProvider = ({ children }: { children: ReactNode }) => {
     // eslint-disable-next-line
   }, []);
 
-  // Fetch all data on mount
+  // Fetch all data on mount and whenever user changes
   useEffect(() => {
+    if (!user) {
+      setBudgets([]);
+      setCategories([]);
+      setTransactions([]);
+      setBudgetCategories([]);
+      setLoading(false);
+      return;
+    }
+
     const fetchAll = async () => {
       setLoading(true);
       setError(null);
@@ -115,7 +125,8 @@ export const BudgetProvider = ({ children }: { children: ReactNode }) => {
       }
     };
     fetchAll();
-  }, []);
+  }, [user]);
+
 
   // Budgets
   const addBudget = async (budget: Omit<Budget, 'id' | 'user_id'>) => {

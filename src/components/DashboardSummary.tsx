@@ -49,17 +49,18 @@ export function CardsOverview() {
       let totalSpent = 0;
       let totalLimit = 0;
 
-      // Calculate stats for each card
-      for (const card of cards || []) {
-        totalMilestone += card.milestone_amount;
-        
-        if (card.card_limit != null) totalLimit += card.card_limit;
-        
-        // Get anniversary cycle for this card
-        const cycle = getAnniversaryCycle(card.anniversary_month);
-        const cardSpent = await calculateTotalCardSpend(card.id, cycle);
-        totalSpent += cardSpent;
-      }
+      // Calculate stats for each card in parallel
+      const cardSpends = await Promise.all(
+        (cards || []).map(async (card) => {
+          totalMilestone += card.milestone_amount;
+          if (card.card_limit != null) totalLimit += card.card_limit;
+          
+          const cycle = getAnniversaryCycle(card.anniversary_month);
+          const cardSpent = await calculateTotalCardSpend(card.id, cycle);
+          return cardSpent;
+        })
+      );
+      totalSpent = cardSpends.reduce((sum, spent) => sum + spent, 0);
 
       const totalRemaining = Math.max(0, totalMilestone - totalSpent);
 
@@ -85,12 +86,14 @@ export function CardsOverview() {
         .eq('user_id', user!.id)
         .order('created_at', { ascending: false });
       if (cardsError) throw cardsError;
-      const cardsWithSpending = [];
-      for (const card of cardsData || []) {
-        const cycle = getAnniversaryCycle(card.anniversary_month);
-        const totalSpent = await calculateTotalCardSpend(card.id, cycle);
-        cardsWithSpending.push({ ...card, totalSpent });
-      }
+      
+      const cardsWithSpending = await Promise.all(
+        (cardsData || []).map(async (card) => {
+          const cycle = getAnniversaryCycle(card.anniversary_month);
+          const totalSpent = await calculateTotalCardSpend(card.id, cycle);
+          return { ...card, totalSpent };
+        })
+      );
       setCards(cardsWithSpending);
     } catch (error) {
       console.error('Error fetching cards for dashboard:', error);
@@ -204,12 +207,14 @@ export function YourCards() {
         .eq('user_id', user!.id)
         .order('created_at', { ascending: false });
       if (cardsError) throw cardsError;
-      const cardsWithSpending = [];
-      for (const card of cardsData || []) {
-        const cycle = getAnniversaryCycle(card.anniversary_month);
-        const totalSpent = await calculateTotalCardSpend(card.id, cycle);
-        cardsWithSpending.push({ ...card, totalSpent });
-      }
+      
+      const cardsWithSpending = await Promise.all(
+        (cardsData || []).map(async (card) => {
+          const cycle = getAnniversaryCycle(card.anniversary_month);
+          const totalSpent = await calculateTotalCardSpend(card.id, cycle);
+          return { ...card, totalSpent };
+        })
+      );
       setCards(cardsWithSpending);
     } catch (error) {
       console.error('Error fetching cards for dashboard:', error);

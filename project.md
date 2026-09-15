@@ -31,13 +31,21 @@ The app is designed for authenticated users. Most data is tied to the currently 
 - The app now supports a fresh Supabase project bootstrap path through `npm run init:new-project` and `supabase/bootstrap.sql`.
 - Phase 2 is now privacy-first and local: receipt/photo imports use browser OCR plus a review table, with no cloud AI in the extraction path.
 - Phase 3 core AI features are fully implemented, utilizing a unified Supabase edge function (`ai-advisor`) integrated with the Gemini 2.5 Flash SDK to handle Advisor Chat, Smart Card Recommendations, Auto-Categorization, and Spending Anomaly Detection while preserving local context and avoiding dynamic SQL injection risks.
+- AI Edge Functions are hardened with Authentication checks and Rate Limiting (tracked in `ai_usage` table).
+- Phase 4 Scaling is complete: Implemented React Query for robust caching, Sentry for error tracking, React Lazy/Suspense for code splitting, and Error Boundaries for stability. Database has been hardened with indexes and RLS policies.
+- **Discover Section (Phase 1: Foundation)** is complete: Implemented schema tables for a read-only card catalog directory, API query helpers, typings, and registered 18 sub-routes. Added a hoverable **🧭 Discover** navigation dropdown on desktop and structured links on mobile.
+- **Discover Section (Phase 2: Card Catalog Pages & Tools)** is complete: Fully implemented Explore directory, ExploreCardDetail summary layouts, active Offers grids, ArticleDetail review contents, Rewards Calculators, live Camera/Upload UPI QR Scanner with MCC detection, and client-side Gift Card / Voucher OCR Extractor.
+- **CaptainTorch Full Scraper Pipeline** is complete: Built robust DOM inspection, multi-category scraping (`cards`, `articles`, `offers`, `merchants`, `mcc`, `guides`, `hotels`, `airlines`, `lifestyle`), JSON data transformation, and Supabase ingestion scripts (`npm run scrape all`).
+- **Mobile Navigation & Profile Upgrades** are complete: Implemented fixed bottom nav bar on mobile viewports (<768px), added profile dialog to manage user full name stored in Supabase Auth metadata, and added custom horizontal scrolling sub-navigation strip for mobile discover subpages.
+- **Mobile Layout & Responsiveness Fixes** are complete: Upgraded the Finances page's transactions toolbar and month picker selector to stack and wrap responsively on mobile, eliminating layout squishing, clutter, and edge overflows.
 - Dark mode is being expanded across remaining light-only surfaces.
 
 ### Cycle and history behavior
 
 - Credit card cycle spending is recomputed from the active anniversary window and refreshes when the local date changes.
 - Card detail includes a year selector so older anniversary cycles can be loaded without changing stored data.
-- The finance page includes a year dropdown that filters transactions, budgets, and insights to the selected calendar year.
+- The finance page includes a month dropdown that filters budgets and insights to the selected month, while the Transactions tab displays the complete all-time transaction history.
+- The dashboard includes a month dropdown for the 'Overview of Finances' section, allowing for a month-wise visualization of budget progress and spending.
 
 ## 2. Tech Stack
 
@@ -45,11 +53,15 @@ The app is designed for authenticated users. Most data is tied to the currently 
 
 - React 18
 - TypeScript
-- Vite
+- Vite (with manual chunk optimization)
 - React Router DOM
 - Tailwind CSS
 - Lucide React icons
 - Recharts for finance charts
+- `@tanstack/react-query` for data fetching, caching, and state management
+- `@sentry/react` for application monitoring and error tracking
+- React Lazy and Suspense for code splitting
+- `react-markdown` for rendering review articles in markdown format
 
 ### Backend and Data
 
@@ -74,13 +86,13 @@ The app is designed for authenticated users. Most data is tied to the currently 
 
 ## 3. What's Left
 
-The remaining roadmap is still the AI rollout from the master implementation plan:
+The remaining roadmap is primarily about maintenance and refinement:
 
 - Phase 2: continue tightening the local OCR import flow and transaction review UX.
-- Phase 3: **COMPLETED** (Auto-categorization, Smart Card recommendations in header, Spending Anomaly Detection, Dedicated Advisor Chat via JSON-serialization).
-- Phase 4: Agentic AI features (e.g., Budget Optimizer Agent and Multi-Agent Planner), attempted last.
+- Phase 3: **COMPLETED** (Auto-categorization, Smart Card recommendations in header, Spending Anomaly Detection, Dedicated Advisor Chat via JSON-serialization, Edge Function Auth/Rate Limiting).
+- Phase 4: **COMPLETED** (Scaling: React Query, Sentry, Vite Bundle Optimization, Error Boundaries, DB Indexes).
 
-Any additional UI polish or accessibility cleanup can be tracked alongside those phases, but the major structural work is now Phase 2 and beyond.
+Any additional UI polish or accessibility cleanup can be tracked alongside those phases.
 
 ## 4. Project Structure
 
@@ -189,6 +201,8 @@ Configured routes:
 | `/cards/:id` | `CardDetail` | Protected |
 | `/cards/:id/edit` | `EditCard` | Protected |
 | `/finances` | `Finances` | Protected |
+| `/advisor` | `Advisor` | Protected |
+| `/discover/*` | Discover section sub-routes (Explore, Offers, Guides, Tools) | Protected |
 | `*` | Redirects to `/` | Public fallback |
 
 The `Budgets` page exists in `src/pages/Budgets.tsx`, but it is not currently registered as a route in `App.tsx`.
@@ -719,7 +733,7 @@ Implemented functions:
 - `updateTransaction`
 - `deleteTransaction`
 
-These helpers return Supabase responses directly. State management and error messages are handled in `BudgetContext`.
+These helpers return Supabase responses directly. We have also transitioned to using `@tanstack/react-query` hooks (`useBudgets`, `useTransactions`, `usePagination`) for caching, automatic background refetching, and better loading state management across the application. State management for specific isolated workflows still runs through `BudgetContext` or local component state.
 
 ### Budget context
 
@@ -1099,6 +1113,10 @@ Receipt OCR uses Tesseract.js plus simple regex extraction for amount and date. 
 
 `package.json` includes scripts for dev, build, lint, and preview, but no test script.
 
+### Edge Function Configuration
+
+AI Edge Functions require deployment to Supabase with proper secrets. They now implement rate-limiting via the `check_ai_rate_limit` RPC call which relies on the `ai_usage` table.
+
 ## 19. Feature Summary
 
 Implemented user-facing features:
@@ -1130,6 +1148,8 @@ Implemented user-facing features:
 - Receipt/photo OCR import flow.
 - Spending trend chart.
 - Category breakdown chart.
+- Read-only Discover catalog section featuring Explore (Card Catalog), Offers, Guides, and Tools.
+- Hoverable Discover navigation dropdown for desktop and structured drawer sections for mobile.
 
 Partially implemented or present but not fully wired:
 

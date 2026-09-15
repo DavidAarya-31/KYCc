@@ -12,6 +12,7 @@ export function Auth() {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
+    fullName: '',
   });
   const [authLoading, setAuthLoading] = useState(false);
   const [error, setError] = useState('');
@@ -35,7 +36,7 @@ export function Auth() {
 
     try {
       if (isSignUp) {
-        await signUp(formData.email, formData.password);
+        await signUp(formData.email, formData.password, formData.fullName);
         alert('Account created! Please check your email for a verification link before logging in.');
       } else {
         await signIn(formData.email, formData.password);
@@ -76,6 +77,24 @@ export function Auth() {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
+          {isSignUp && (
+            <div>
+              <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                Full Name
+              </label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                value={formData.fullName}
+                onChange={handleInputChange}
+                required
+                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-800 focus:border-blue-500 dark:bg-gray-800 dark:text-gray-100 transition-colors"
+                placeholder="Enter your full name"
+              />
+            </div>
+          )}
+
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
               Email Address
